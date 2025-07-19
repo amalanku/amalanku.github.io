@@ -1,0 +1,11 @@
+# _config.yml
+
+# Basic settings
+title: Amalanku - Aplikasi Amalan Islam Sehari-hari
+description: Aplikasi mobile untuk membantu umat Islam melacak amalan harian seperti salat, tilawah Al-Quran, dzikir, dan ibadah lainnya. Dilengkapi fitur monitoring progress dan pembentukan kebiasaan spiritua
+theme: jekyll-theme-cayman
+show_downloads: false
+
+# Site metadata
+url: "https://amalanku.github.io"
+author: "FlagoDNA Developer Labs"
