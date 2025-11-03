@@ -1,5 +1,6 @@
 [
   {
+    "isHide": true,
     "title": "Contoh : Info Pembaruan Aplikasi",
     "subtitle": "Aplikasi AmalanKu versi terbaru telah dirilis!, silakan perbarui aplikasi Anda.",
     "url": "https://play.google.com/store/apps/details?id=com.flagodna.amalanku"
