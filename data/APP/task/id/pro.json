@@ -1,0 +1,465 @@
+[
+  {
+    "id": 11,
+    "created_at": "2025-07-29T14:58:46.08666+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Sholat Isya",
+    "group": "Rukun Islam",
+    "desc": null,
+    "source": "\"Tidak ada shalat yang lebih berat bagi orang-orang Munafiq kecuali shalat shubuh dan 'Isya. Seandainya mereka mengetahui (kebaikan) yang ada pada keduanya tentulah mereka akan mendatanginya walau harus dengan merangkak. ...\" [HR. Bukhari 617 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 2005
+  },
+  {
+    "id": 9,
+    "created_at": "2025-07-29T14:57:34.074061+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Sholat Maghrib",
+    "group": "Rukun Islam",
+    "desc": "Mengerjakan sholat Maghrib tepat waktu",
+    "source": "\"Nabi shallallahu 'alaihi wa sallam melaksanakan shalat Dhuhur ketika matahari telah condong, shalat 'Ashar saat matahari masih terasa panas sinarnya, shalat Maghrib ketika matahari telah terbenam, dan shalat 'Isya terkadang beliau mengikuti keadaan jama'ah, jika beliau lihat sudah berkumpul maka beliau segerakan, dan jika mereka belum berkumpul maka beliau akhirkan. Sementara untuk shalat Subuh, mereka atau beliau melaksanakannya saat pagi masih gelap.\" [HR. Bukhari no. 527 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 2004
+  },
+  {
+    "id": 7,
+    "created_at": "2025-07-29T14:27:52.978356+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "end_time": "14:00",
+      "start_time": "12:00"
+    },
+    "status": 1,
+    "name": "Sholat Ba’diyah Dzuhur",
+    "group": "Sholat Sunnah",
+    "desc": null,
+    "source": "\"Dari Ibnu Umar RA, ia berkata, “Saya hafal (ingat dengan betul) dari Nabi SAW sepuluh raka’at shalat sunnah; dua raka’at sebelum shalat Dhuhur dan dua raka’at sesudahnya, dan dua raka’at sesudah Maghrib di rumah beliau dan dua raka’at sesudah 'Isya di rumah pula dan juga dua raka’at sebelum shalat Shubuh”. [HR. Bukhari juz 2, hal. 54]\"",
+    "level": 3,
+    "unique_id": 1005
+  },
+  {
+    "id": 8,
+    "created_at": "2025-07-29T14:55:24.872219+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Sholat Ashar",
+    "group": "Rukun Islam",
+    "desc": "Mengerjakan sholat Ashar tepat waktu",
+    "source": "Wahai Rasulullah, kabarkanlah kepadaku tentang suatu amal yang akan memasukkanku kedalam surga dan menjauhkanku dari neraka.' Beliau menjawab: \"Kamu telah menanyakan kepadaku tentang perkara yang besar, padahal sungguh ia merupakan perkara ringan bagi orang yang telah Allah jadikan ringan baginya, yaitu: Kamu menyembah Allah dan tidak menyekutukannya dengan sesuatu apa pun, kamu mendirikan shalat, menunaikan zakat, berpuasa di bulan Ramadhan, berhaji ke Baitullah.\"  [HR. Tirmidzi no. 2541 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 2003
+  },
+  {
+    "id": 10,
+    "created_at": "2025-07-29T14:58:07.018359+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "end_time": "18:45",
+      "start_time": "08:00"
+    },
+    "status": 1,
+    "name": "Sholat Ba’diyah Maghrib",
+    "group": "Sholat Sunnah",
+    "desc": null,
+    "source": "\"Dari Ibnu Umar RA, ia berkata, “Saya hafal (ingat dengan betul) dari Nabi SAW sepuluh raka’at shalat sunnah; dua raka’at sebelum shalat Dhuhur dan dua raka’at sesudahnya, dan dua raka’at sesudah Maghrib di rumah beliau dan dua raka’at sesudah 'Isya di rumah pula dan juga dua raka’at sebelum shalat Shubuh”. [HR. Bukhari juz 2, hal. 54]\"",
+    "level": 3,
+    "unique_id": 1006
+  },
+  {
+    "id": 14,
+    "created_at": "2025-07-29T15:21:43.313057+00:00",
+    "max_poin": 10,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "end_time": "04:00",
+      "start_time": "19:00"
+    },
+    "status": 1,
+    "name": "Sholat Tahajjud",
+    "group": "Sholat Sunnah",
+    "desc": null,
+    "source": "Dan pada sebagian malam bershalat Tahajjudlah kamu sebagai suatu tambahan bagimu. [QS. Al-Israa' : 79]   ",
+    "level": 3,
+    "unique_id": 1008
+  },
+  {
+    "id": 12,
+    "created_at": "2025-07-29T15:19:25.121114+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "end_time": "20:00",
+      "start_time": "19:00"
+    },
+    "status": 1,
+    "name": "Sholat Ba’diyah Isya",
+    "group": "Sholat Sunnah",
+    "desc": "Mengerjakan sholat Isya tepat waktu",
+    "source": "Dari Ummu Habibah, ia berkata : Rasulullah SAW bersabda, “Barangsiapa shalat (sunnah) sehari semalam 12 reka'at, maka akan dibuatkan baginya rumah di surga; yaitu 4 reka'at sebelum shalat Dhuhur, 2 reka'at sesudah shalat Dhuhur, 2 reka'at sesudah shalat Maghrib, 2 reka'at sesudah shalat 'Isyak dan 2 reka'at sebelum shalat Shubuh”. [HR. Tirmidzi juz 1, hal. 259, no. 413, ia berkata : Ini hadits hasan shahih]",
+    "level": 3,
+    "unique_id": 1007
+  },
+  {
+    "id": 2,
+    "created_at": "2025-07-29T13:59:59.532159+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "end_time": "12:00",
+      "start_time": "05:00"
+    },
+    "status": 1,
+    "name": "Niat Pagi",
+    "group": "Niat & Kesadaran",
+    "desc": "Berniat menjalani hari dengan taqwa & tujuan",
+    "source": "\"Semua perbuatan tergantung niatnya, dan (balasan) bagi tiap-tiap orang (tergantung) apa yang diniatkan, Barangsiapa niat hijrahnya karena dunia yang ingin digapainya atau karena seorang perempuan yang ingin dinikahinya, maka hijrahnya adalah kepada apa dia diniatkan.\" [HR. Bukhari no. 1 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 1001
+  },
+  {
+    "id": 3,
+    "created_at": "2025-07-29T14:03:32.552313+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Sholat Subuh",
+    "group": "Rukun Islam",
+    "desc": "Mengerjakan sholat Subuh tepat waktu",
+    "source": "\"Shalat secara berjamaah lebih utama dua puluh lima derajat daripada shalat secara individual, \" Beliau melanjutkan: \"Dan para malaikat malam dan malaikat siang berkumpul ketika shalat fajar (subuh).\" Abu Hurairah: \"jika kalian berkenan, maka bacalah \"Dan tunaikanlah bacaan fajar (subuh) sesungguhnya bacaan (shalat subuh) disaksikan oleh para malaikat.\" QS. Al-Isra\": 78. [HR. Muslim no. 1035 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 2001
+  },
+  {
+    "id": 5,
+    "created_at": "2025-07-29T14:25:57.145392+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "end_time": "13:00",
+      "start_time": "11:00"
+    },
+    "status": 1,
+    "name": "Sholat Qabliyah Dzuhur",
+    "group": "Sholat Sunnah",
+    "desc": null,
+    "source": "Dari Ummu Habibah, ia berkata : Rasulullah SAW bersabda, “Barangsiapa shalat (sunnah) sehari semalam 12 reka'at, maka akan dibuatkan baginya rumah di surga; yaitu 4 reka'at sebelum shalat Dhuhur, 2 reka'at sesudah shalat Dhuhur, 2 reka'at sesudah shalat Maghrib, 2 reka'at sesudah shalat 'Isyak dan 2 reka'at sebelum shalat Shubuh”. [HR. Tirmidzi juz 1, hal. 259, no. 413, ia berkata : Ini hadits hasan shahih]",
+    "level": 3,
+    "unique_id": 1004
+  },
+  {
+    "id": 6,
+    "created_at": "2025-07-29T14:26:46.591689+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Sholat Dzuhur",
+    "group": "Rukun Islam",
+    "desc": "Mengerjakan sholat Dzuhur / Jumat tepat waktu",
+    "source": "\"Amal apakah yang paling dicintai oleh Allah?\" Beliau menjawab: \"Shalat pada waktunya.\" 'Abdullah bertanya lagi: \"Kemudian apa lagi?\" Beliau menjawab: \"Kemudian berbakti kepada kedua orang tua.\" 'Abdullah bertanya lagi: \"Kemudian apa lagi?\" Beliau menjawab: \"Jihad fi sabilillah.\" [HR. Bukhari no. 496 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 2002
+  },
+  {
+    "id": 22,
+    "created_at": "2025-07-29T16:44:33.001029+00:00",
+    "max_poin": 5,
+    "type": 2,
+    "rule": {
+      "day": "monday",
+      "type": "weekly",
+      "duration": "all_day"
+    },
+    "status": 1,
+    "name": "Puasa Sunnah - Hari Senin",
+    "group": "Puasa Sunnah",
+    "desc": "Berpuasa sunnah pada hari Senin, sebagaimana Rasulullah ﷺ senang amalnya diangkat saat berpuasa",
+    "source": "\"Pada hari senin dan kamis semua amalan dinaikkan kepada Allah ta'ala, maka saya lebih suka amalanku dinaikkan kepada-Nya ketika saya sedang berpuasa\". Abu 'Isa berkata: dalam hal ini hadits Abu Hurairah merupakan hadits hasan gharib. [HR. Tirmidzi no. 678 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 1012
+  },
+  {
+    "id": 23,
+    "created_at": "2025-07-29T16:45:25.203507+00:00",
+    "max_poin": 5,
+    "type": 2,
+    "rule": {
+      "day": "thursday",
+      "type": "weekly",
+      "duration": "all_day"
+    },
+    "status": 1,
+    "name": "Puasa Sunnah - Hari Kamis",
+    "group": "Puasa Sunnah",
+    "desc": "Berpuasa sunnah pada hari Kamis, hari di mana amal manusia diperlihatkan kepada Allah",
+    "source": "“Sesungguhnya pintu-pintu surga dibuka pada hari Senin dan Kamis. Semua dosa hamba yang tidak menyekutukan Allah dengan sesuatu akan diampuni, kecuali bagi orang yang antara dia dan saudaranya terdapat kebencian dan perpecahan.” [HR. Muslim no. 4652 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 1013
+  },
+  {
+    "id": 25,
+    "created_at": "2025-07-29T16:48:41.565233+00:00",
+    "max_poin": 10,
+    "type": 3,
+    "rule": {
+      "day": 14,
+      "type": "hijri_date",
+      "duration": "all_day"
+    },
+    "status": 1,
+    "name": "Puasa Ayyamul Bidh - Tanggal 14",
+    "group": "Puasa Sunnah",
+    "desc": "Puasa Ayyamul Bidh tanggal 14 Hijriyah, melengkapi ibadah tengah bulan yang penuh keberkahan",
+    "source": "\"Maukah kuberitahukan kepada kalian dengan sesuatu yang bisa menghilangkan kemarahan dada?\" Mereka menjawab: \"Ya.\" Beliau bersabda: \"Puasa tiga hari setiap bulan.\" [HR. An Nasai no. 2345 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 1015
+  },
+  {
+    "id": 26,
+    "created_at": "2025-07-29T17:03:28.286329+00:00",
+    "max_poin": 10,
+    "type": 3,
+    "rule": {
+      "day": 15,
+      "type": "hijri_date",
+      "duration": "all_day"
+    },
+    "status": 1,
+    "name": "Puasa Ayyamul Bidh - Tanggal 15",
+    "group": "Puasa Sunnah",
+    "desc": "Puasa Ayyamul Bidh tanggal 15 Hijriyah, menyempurnakan tiga hari puasa putih setiap bulan",
+    "source": "Beliau bersabda: \"Apabila engkau berpuasa maka berpuasalah tanggal tiga belas, empat belas dan lima belas.\" [HR. An Nasai no. 4236 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 1016
+  },
+  {
+    "id": 17,
+    "created_at": "2025-07-29T15:42:35.124245+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "auto": true,
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 1,
+    "name": "Menulis Kebaikan / Keburukan Harian",
+    "group": "Musahabah",
+    "desc": "Bermuhasabah Harian",
+    "source": "“Sesungguhnya Allah menulis (menentukan) kebaikan dan keburukan, lalu menjelaskannya: Barangsiapa berniat melakukan kebaikan namun tidak melakukannya, Allah menulis baginya satu kebaikan sempurna. Jika ia melakukannya, Allah menulis baginya sepuluh kebaikan, hingga tujuh ratus kali lipat, bahkan lebih banyak lagi. Jika ia berniat melakukan keburukan namun tidak melakukannya, Allah menulis baginya satu kebaikan sempurna. Jika ia berniat melakukannya lalu melakukannya, Allah menulisnya sebagai satu keburukan saja.” [HR. Bukhari no. 6010 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 3002
+  },
+  {
+    "id": 19,
+    "created_at": "2025-07-29T16:00:59.734359+00:00",
+    "max_poin": 2,
+    "type": 1,
+    "rule": {
+      "auto": true,
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 3,
+    "name": "Membaca Ayat Quran Pilihan Harian",
+    "group": "Tilawah",
+    "desc": "Ayat Pilihan Harian, membantu menambah keimanan dan pengetahuan",
+    "source": null,
+    "level": 3,
+    "unique_id": 3004
+  },
+  {
+    "id": 16,
+    "created_at": "2025-07-29T15:38:21.865574+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 1,
+    "name": "Membaca Al-Quran",
+    "group": "Konsistensi",
+    "desc": "Membaca minimal 1 ayat Al-Qur'an hari ini",
+    "source": "\"Perumpamaan orang mu`min yang membaca al-Qur`an seperti buah utrujah, baunya harum dan rasanya enak, sedangkan perumpamaan orang mu`min yang tidak membaca al-Qur`an seperti buah kurma, tidak ada baunya namun rasanya manis, dan perumpamaan orang munafik yang membaca al-Qur`an seperti raihanah (sejenis tanaman), harum baunya tapi pahit rasanya dan perumpamaan munafik yang yang tidak membaca al-Qur`an seperti brotowali, baunya busuk dan rasanya pahit.\" [HR. Tirmidzi no. 2791 - aplikasi HadisKu]",
+    "level": 2,
+    "unique_id": 1010
+  },
+  {
+    "id": 20,
+    "created_at": "2025-07-29T16:19:35.091198+00:00",
+    "max_poin": 10,
+    "type": 1,
+    "rule": {
+      "auto": true,
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 3,
+    "name": "Selesai semua sholat 5 waktu ",
+    "group": "Rukun islam",
+    "desc": "Melaksanakan seluruh 5 waktu sholat hari ini",
+    "source": "\"Bagaimana pendapat kalian seandainya ada sungai di depan pintu rumah salah seorang dari kalian, lalu dia mandi lima kali setiap hari? Apakah kalian menganggap masih akan ada kotoran (daki) yang tersisa padanya?\" Para sahabat menjawab: \"Tidak akan ada yang tersisa sedikitpun kotoran padanya.\" Lalu beliau bersabda: \"Seperti itu pula dengan shalat lima waktu, dengannya Allah akan menghapus semua kesalahan.\" [HR. Bukhari no. 497 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 3001
+  },
+  {
+    "id": 21,
+    "created_at": "2025-07-29T16:23:36.448836+00:00",
+    "max_poin": 15,
+    "type": 1,
+    "rule": {
+      "auto": true,
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 3,
+    "name": "Menyelesaikan Semua Target Harian",
+    "group": "Konsistensi",
+    "desc": "Checklist semua tugas harian",
+    "source": null,
+    "level": 3,
+    "unique_id": 3003
+  },
+  {
+    "id": 24,
+    "created_at": "2025-07-29T16:47:12.450928+00:00",
+    "max_poin": 10,
+    "type": 3,
+    "rule": {
+      "day": 13,
+      "type": "hijri_date",
+      "duration": "all_day"
+    },
+    "status": 1,
+    "name": "Puasa Ayyamul Bidh - Tanggal 13",
+    "group": "Puasa Sunnah",
+    "desc": "Puasa Ayyamul Bidh tanggal 13 Hijriyah, sunnah yang menjaga kesucian hati dan pahala besar",
+    "source": "Beliau bersabda: \"Apabila engkau berpuasa maka berpuasalah tanggal tiga belas, empat belas dan lima belas.\" [HR. An Nasai no. 4236 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 1014
+  },
+  {
+    "id": 27,
+    "created_at": "2025-07-29T17:04:12.28093+00:00",
+    "max_poin": 3,
+    "type": 2,
+    "rule": {
+      "day": "friday",
+      "type": "weekly",
+      "duration": "all_day",
+      "end_time": "13:00",
+      "start_time": "12:00"
+    },
+    "status": 1,
+    "name": "Shalat Qabliyah Jumat",
+    "group": "Sholat Sunnah",
+    "desc": "",
+    "source": "Dari Abu Hurairah, ia berkata : Rasulullah SAW bersabda, \"Apabila seseorang diantara kalian shalat Jum'ah, maka hendaklah shalat sesudah itu 4 raka'at\". [HR Muslim juz 2, hal. 600] \\n\\n   Dari ‘Abdullah bin ‘Umar, bahwasanya dia apabila selesai shalat Jum’at, lalu pulang, kemudian shalat dua reka’at di rumahnya. Kemudian ia berkata, “Dahulu Rasulullah SAW melakukan yang demikian itu”. [HR. Ibnu Majah juz 1, hal. 358, no. 1130]",
+    "level": 3,
+    "unique_id": 1017
+  },
+  {
+    "id": 15,
+    "created_at": "2025-07-29T15:22:21.77214+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "end_time": "04:00",
+      "start_time": "19:00"
+    },
+    "status": 1,
+    "name": "Sholat Witir",
+    "group": "Sholat Sunnah",
+    "desc": null,
+    "source": "Telah berkata Abu Hurairah, “Kekasih saya (Nabi Muhammad SAW) telah berwashiyat kepada saya dengan tiga perkara yaitu : 1. Puasa tiga hari tiap-tiap bulan. 2. Shalat Dluha dua raka'at, dan 3. Shalat witir sebelum tidur”. [HR. Bukhari juz 2, hal. 247]   Dari 'Ali RA, ia berkata : Rasulullah SAW bersabda, \"Wahai ahli Qur'an, berwitirlah kalian, karena sesungguhnya Allah itu witir/tunggal, Ia suka kepada (shalat) witir\". [HR. Abu Dawud juz 1, hal. 61, no. 1416]",
+    "level": 3,
+    "unique_id": 1009
+  },
+  {
+    "id": 18,
+    "created_at": "2025-07-29T15:57:20.055005+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 1,
+    "name": "Istighfar 100x",
+    "group": "Taubat",
+    "desc": "Membaca istighfar 100 kali",
+    "source": "Rasulullah shallallahu 'alaihi wa sallam bersabda: \"Sesungguhnya hatiku tidak pernah lalai dari dzikir kepada Allah, susungguhnya Aku beristighfar seratus kali dalam sehari.\"  [HR. Muslim no. 4870 - aplikasi HadisKu] \\n\\n \"Barangsiapa yang mengucapkan Laa ilaaha ilIallaahu wahdah, Iaa syariikalahu lahul mulku wa lahul hamdu wa huwa 'alaa kulli syai'in qadiir' (Tiada tuhan selain Allah, Dialah Tuhan Yang Maha Esa. Tidak ada sekutu bagi-Nya, Dialah yang memiliki alam semesta dan segala puji hanya bagi-Nya. Allah adalah Maha Kuasa atas segaIa sesuatu) dalam sehari seratus kali, maka orang tersebut akan mendapat pahala sama seperti orang yang memerdekakan seratus orang budak dicatat seratus kebaikan untuknya, dihapus seratus keburukan untuknya. Pada hari itu ia akan terjaga dari godaan syetan sampai sore hari dan tidak ada orang lain yang melebihi pahalanya, kecuali orang yang membaca lebih banyak dan itu. Barang siapa membaca Subhaanallaah wa bi hamdihi (Maha Suci Allah dan segala puji bagi-Nya) seratus kali dalam sehari, maka dosanya akan dihapus, meskipun sebanyak buih lautan.\" [HR. Muslim no. 4857 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 1011
+  },
+  {
+    "id": 1,
+    "created_at": "2025-07-29T13:59:18.662529+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "end_time": "05:00",
+      "start_time": "04:00"
+    },
+    "status": 1,
+    "name": "Qabliyah Subuh / Fajar",
+    "group": "Sholat Sunnah",
+    "desc": null,
+    "source": "Dari Aisyah, dari Nabi SAW beliau bersabda, “Dua reka’at shalat Fajar itu lebih baik dari pada dunia seisinya”. [HR. Muslim juz 1, hal. 501]",
+    "level": 3,
+    "unique_id": 1002
+  },
+  {
+    "id": 4,
+    "created_at": "2025-07-29T14:23:33.83561+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "end_time": "10:00",
+      "start_time": "06:00"
+    },
+    "status": 1,
+    "name": "Sholat Dhuha",
+    "group": "Sholat Sunnah",
+    "desc": null,
+    "source": "Dari Buraidah, ia berkata : Saya mendengar Rasulullah SAW bersabda, “Dalam diri manusia itu ada 360 persendian, yang ia harus bersadaqah untuk tiap-tiap persendian itu”. Para shahabat bertanya, “Lalu siapa orang yang mampu mengerjakan yang demikian itu, ya Rasulullah ?”. Beliau bersabda, “Engkau menutup dahak yang berada di masjid dengan tanah (itu merupakan sadaqah), atau engkau menyingkirkan gangguan yang ada di jalan (itu merupakan sadaqah), jika kamu tidak mampu, maka mengerjakan shalat Dluha dua rekaat itu mencukupi bagimu”. [HR. Ahmad juz 9, hal. 20, no. 23059] ] \\n\\n   Telah berkata Abu Hurairah, “Kekasih saya (Nabi Muhammad SAW) telah berwashiyat kepada saya dengan tiga perkara yaitu : 1. Puasa tiga hari tiap-tiap bulan. 2. Shalat Dluha dua raka'at, dan 3. Shalat witir sebelum tidur”. [HR. Bukhari juz 2, hal. 247]",
+    "level": 3,
+    "unique_id": 1003
+  }
+]
