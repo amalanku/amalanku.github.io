@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1001,
+    "author": "@cas8398",
+    "widget_deeds": false,
+    "widget_shalat": true,
+    "title": "Shalat Wajib",
+    "desc": "Mengamalkan shalat wajib 5 waktu",
+    "category": "Shalat"
+  },
+  {
+    "id": 1002,
+    "author": "@cas8398",
+    "widget_deeds": false,
+    "widget_shalat": false,
+    "title": "Dzikir Harian",
+    "desc": "Membaca dzikir pagi dan petang",
+    "category": "Dzikir"
+  },
+  {
+    "id": 1003,
+    "author": "@cas8398",
+    "widget_deeds": false,
+    "widget_shalat": false,
+    "title": "Puasa Sunnah",
+    "desc": "Menjalankan puasa senin kamis",
+    "category": "Puasa"
+  },
+  {
+    "id": 1004,
+    "author": "@cas8398",
+    "widget_deeds": false,
+    "widget_shalat": false,
+    "title": "Tilawah Quran 2x",
+    "desc": "Membaca Al-Quran 2x setiap hari",
+    "category": "Quran"
+  },
+  {
+    "id": 1005,
+    "author": "@cas8398",
+    "widget_deeds": false,
+    "widget_shalat": false,
+    "title": "Sedekah",
+    "desc": "Bersedekah secara rutin",
+    "category": "Sedekah"
+  },
+  {
+    "id": 1006,
+    "author": "@cas8398",
+    "widget_deeds": false,
+    "widget_shalat": false,
+    "title": "Shalat Sunnah",
+    "desc": "Menunaikan shalat sunnah setiap hari",
+    "category": "Shalat"
+  }
+]

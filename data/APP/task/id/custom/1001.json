@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "created_at": "2025-07-29T06:12:18.525465+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Sholat Subuh",
+    "group": "Rukun Islam",
+    "desc": "Mengerjakan sholat Subuh tepat waktu",
+    "source": "\"Shalat secara berjamaah lebih utama dua puluh lima derajat daripada shalat secara individual, \" Beliau melanjutkan: \"Dan para malaikat malam dan malaikat siang berkumpul ketika shalat fajar (subuh).\" Abu Hurairah: \"jika kalian berkenan, maka bacalah \"Dan tunaikanlah bacaan fajar (subuh) sesungguhnya bacaan (shalat subuh) disaksikan oleh para malaikat.\" QS. Al-Isra\": 78. [HR. Muslim no. 1035 - aplikasi HadisKu]",
+    "level": 1,
+    "unique_id": 2001
+  },
+  {
+    "id": 2,
+    "created_at": "2025-07-29T06:19:58.911411+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Sholat Dzuhur / Jumat",
+    "group": "Rukun Islam",
+    "desc": "Mengerjakan sholat Dzuhur / Jumat tepat waktu",
+    "source": "\"Amal apakah yang paling dicintai oleh Allah?\" Beliau menjawab: \"Shalat pada waktunya.\" 'Abdullah bertanya lagi: \"Kemudian apa lagi?\" Beliau menjawab: \"Kemudian berbakti kepada kedua orang tua.\" 'Abdullah bertanya lagi: \"Kemudian apa lagi?\" Beliau menjawab: \"Jihad fi sabilillah.\" [HR. Bukhari no. 496 - aplikasi HadisKu]",
+    "level": 1,
+    "unique_id": 2002
+  },
+  {
+    "id": 3,
+    "created_at": "2025-07-29T06:20:51.500088+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Sholat Ashar",
+    "group": "Rukun Islam",
+    "desc": "Mengerjakan sholat Ashar tepat waktu",
+    "source": "Wahai Rasulullah, kabarkanlah kepadaku tentang suatu amal yang akan memasukkanku kedalam surga dan menjauhkanku dari neraka.' Beliau menjawab: \"Kamu telah menanyakan kepadaku tentang perkara yang besar, padahal sungguh ia merupakan perkara ringan bagi orang yang telah Allah jadikan ringan baginya, yaitu: Kamu menyembah Allah dan tidak menyekutukannya dengan sesuatu apa pun, kamu mendirikan shalat, menunaikan zakat, berpuasa di bulan Ramadhan, berhaji ke Baitullah.\"  [HR. Tirmidzi no. 2541 - aplikasi HadisKu]",
+    "level": 1,
+    "unique_id": 2003
+  },
+  {
+    "id": 4,
+    "created_at": "2025-07-29T06:21:51.592681+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Sholat Maghrib",
+    "group": "Rukun Islam",
+    "desc": "Mengerjakan sholat Maghrib tepat waktu",
+    "source": "\"Nabi shallallahu 'alaihi wa sallam melaksanakan shalat Dhuhur ketika matahari telah condong, shalat 'Ashar saat matahari masih terasa panas sinarnya, shalat Maghrib ketika matahari telah terbenam, dan shalat 'Isya terkadang beliau mengikuti keadaan jama'ah, jika beliau lihat sudah berkumpul maka beliau segerakan, dan jika mereka belum berkumpul maka beliau akhirkan. Sementara untuk shalat Subuh, mereka atau beliau melaksanakannya saat pagi masih gelap.\" [HR. Bukhari no. 527 - aplikasi HadisKu]",
+    "level": 1,
+    "unique_id": 2004
+  },
+  {
+    "id": 5,
+    "created_at": "2025-07-29T06:22:38.949194+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Sholat Isya",
+    "group": "Rukun Islam",
+    "desc": "Mengerjakan sholat Isya tepat waktu",
+    "source": "\"Tidak ada shalat yang lebih berat bagi orang-orang Munafiq kecuali shalat shubuh dan 'Isya. Seandainya mereka mengetahui (kebaikan) yang ada pada keduanya tentulah mereka akan mendatanginya walau harus dengan merangkak. ...\" [HR. Bukhari 617 - aplikasi HadisKu]",
+    "level": 1,
+    "unique_id": 2005
+  }
+]
