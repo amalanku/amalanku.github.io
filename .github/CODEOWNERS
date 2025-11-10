@@ -1,0 +1,15 @@
+# Default owner untuk semua file
+
+- @cas8398
+
+# Specific owners for critical files
+
+/.github/workflows/ @cas8398
+
+# Documentation dapat diedit siapa saja (akan di-review)
+
+/data/APP/task/id/ @cas8398
+
+# Contributor boleh edit
+
+/README.md @cas8398
