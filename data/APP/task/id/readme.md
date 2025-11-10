@@ -2,26 +2,94 @@
 
 Terima kasih ingin berkontribusi untuk **Amalanku**! Panduan ini akan membantu kamu menambahkan task/amalan baru ke dalam aplikasi.
 
+## 🌳 Branching Strategy
+
+Kami menggunakan **Git Flow** untuk manajemen branch:
+
+```
+main (production)
+  ↑
+  └── develop (development)
+        ↑
+        └── feature/add-task-xxx (your branch)
+```
+
+- **`main`** → Production branch (hanya maintainer yang bisa merge)
+- **`develop`** → Development branch (target PR kamu)
+- **`feature/*`** → Branch fitur kamu (dari develop)
+
+⚠️ **PENTING**: Semua PR harus ke branch `develop`, BUKAN `main`!
+
+---
+
 ## 📋 Cara Kontribusi
 
 ### 1️⃣ Fork & Clone Repository
 
 ```bash
+# Fork dulu di GitHub (klik tombol Fork)
+# Lalu clone fork-mu
 git clone https://github.com/amalanku/amalanku.github.io.git
 cd amalanku.github.io
 ```
 
-### 2️⃣ Buat Branch Baru
+### 2️⃣ Setup Upstream & Checkout Develop
 
 ```bash
-git checkout -b add-task-nama-amalan
+# Tambahkan upstream (repo original)
+git remote add upstream https://github.com/amalanku/amalanku.github.io.git
+
+# Fetch semua branch
+git fetch upstream
+
+# Checkout ke branch develop
+git checkout develop
+
+# Atau kalau develop belum ada di local, buat dari upstream
+git checkout -b develop upstream/develop
+
+# Update develop dengan upstream (pastikan selalu update)
+git pull upstream develop
 ```
 
-### 3️⃣ Tambahkan Task Baru
+### 3️⃣ Buat Branch Baru dari Develop
+
+```bash
+# PENTING: Pastikan kamu di branch develop dulu!
+git checkout develop
+
+# Buat branch baru dari develop
+git checkout -b add-task-nama-amalan
+
+# Contoh naming:
+# - add-task-sholat-dhuha
+# - add-task-puasa-daud
+# - add-task-sedekah-jumat
+```
+
+**❌ JANGAN:**
+
+```bash
+# SALAH! Jangan branch dari main
+git checkout main
+git checkout -b add-task-xxx
+```
+
+**✅ BENAR:**
+
+```bash
+# BENAR! Branch dari develop
+git checkout develop
+git checkout -b add-task-xxx
+```
+
+### 4️⃣ Tambahkan Task Baru
 
 Ada 2 file yang perlu kamu edit:
 
-#### A. File Task Data (`data/APP/task/id/custom/(nomor-id).json`)
+#### A. Buat File Task Data Baru (`data/APP/task/id/custom/(id-unique - diatas 10000).json`)
+
+_Contoh : ./custom/1002.json_
 
 Tambahkan object task baru dengan struktur berikut:
 
@@ -45,7 +113,7 @@ Tambahkan object task baru dengan struktur berikut:
 }
 ```
 
-#### B. File Task Name (`data/APP/task/id/custom.json`)
+#### B. Edit File Custom (`data/APP/task/id/custom.json`)
 
 Tambahkan metadata task untuk widget:
 
@@ -60,13 +128,64 @@ Tambahkan metadata task untuk widget:
 }
 ```
 
+### 5️⃣ Commit & Push ke Fork-mu
+
+```bash
+# Add files yang diubah
+git add data/data/APP/task/id/custom/1002.json data/APP/task/id/custom.json
+
+# Commit dengan message yang jelas
+git commit -m "feat: add Sholat Dhuha task"
+
+# Push ke fork kamu (bukan upstream!)
+git push origin add-task-nama-amalan
+```
+
+### 6️⃣ Buat Pull Request ke Develop
+
+1. **Buka fork kamu di GitHub**
+
+   - URL: `https://github.com/YOUR_USERNAME/amalanku.github.io`
+
+2. **Klik "Compare & pull request"**
+
+3. **PENTING: Pastikan base branch adalah `develop`!**
+
+   ```
+   base repository: MAINTAINER/amalanku    base: develop   ← HARUS DEVELOP!
+   head repository: YOUR_USERNAME/amalanku compare: add-task-xxx
+   ```
+
+4. **Pilih PR template**: "Task Contribution"
+
+5. **Isi form PR** dengan lengkap
+
+6. **Create pull request**
+
+---
+
+## 🔄 Update Branch Jika Ada Perubahan
+
+Jika maintainer minta perubahan atau develop sudah update:
+
+```bash
+# Update develop dari upstream
+git checkout develop
+git pull upstream develop
+
+# Rebase branch kamu
+git checkout add-task-nama-amalan
+git rebase develop
+
+# Force push (karena history berubah)
+git push origin add-task-nama-amalan --force-with-lease
+```
+
 ---
 
 ## 🔧 Parameter Explained
 
-### Task Object (`tasks.json`)
-
-- Contoh Lengkap [Data Task Pro](https://github.com/amalanku/amalanku.github.io/blob/main/data/APP/task/id/pro.json)
+### Task Object (`custom/(unique-id).json`)
 
 | Field        | Type   | Required | Deskripsi                                                            |
 | ------------ | ------ | -------- | -------------------------------------------------------------------- |
@@ -83,7 +202,7 @@ Tambahkan metadata task untuk widget:
 | `level`      | number | ✅       | Level task (gunakan `1` untuk task baru)                             |
 | `unique_id`  | number | ✅       | ID unik global (gunakan range 3000+)                                 |
 
-### Task Name Object (`custom.json`)
+### Task Name Object (`custtom.json`)
 
 | Field           | Type    | Required | Deskripsi                       |
 | --------------- | ------- | -------- | ------------------------------- |
@@ -286,6 +405,8 @@ Task yang dilakukan pada tanggal tertentu dalam kalender Hijriyah.
 
 ## ✅ Checklist Sebelum Submit PR
 
+- [ ] Branch dibuat dari `develop` (bukan `main`)
+- [ ] Base PR target adalah `develop` (bukan `main`)
 - [ ] ID task unik dan belum terpakai
 - [ ] `unique_id` menggunakan range 3000+ dan belum terpakai
 - [ ] Semua field required sudah diisi
@@ -321,6 +442,10 @@ git push origin add-task-sholat-dhuha
 - Type: [Harian/Mingguan/Bulanan]
 - Status: [Wajib/Sunnah/Baik untuk dikerjakan]
 
+### Base Branch
+
+- [x] PR ke `develop` (BUKAN `main`)
+
 ### Checklist
 
 - [x] Task data sudah ditambahkan
@@ -331,19 +456,49 @@ git push origin add-task-sholat-dhuha
 
 ---
 
+## ❗ Common Mistakes
+
+### ❌ Mistake 1: PR ke `main`
+
+```
+❌ base: main ← head: add-task-xxx
+```
+
+**Fix:** Ganti base branch ke `develop` saat buat PR
+
+### ❌ Mistake 2: Branch dari `main`
+
+```bash
+❌ git checkout main
+❌ git checkout -b add-task-xxx
+```
+
+**Fix:** Selalu branch dari `develop`
+
+### ❌ Mistake 3: Lupa update develop
+
+```bash
+# Develop kamu outdated, conflict terjadi
+```
+
+**Fix:** Selalu `git pull upstream develop` sebelum buat branch baru
+
+---
+
 ## 💡 Tips
 
 - Pastikan dalil yang dicantumkan **akurat** dan dari sumber yang **terpercaya**
 - Gunakan bahasa yang **mudah dipahami** untuk deskripsi
 - Jika ragu dengan hukum/status amalan, konsultasikan dengan ustadz/referensi terpercaya
 - Untuk amalan yang kontroversial, lebih baik diskusikan di issue terlebih dahulu
+- **Selalu** branch dari `develop` dan PR ke `develop`
 
 ---
 
 ## 🤝 Need Help?
 
 - Buka [Issue](https://github.com/amalanku/amalanku.github.io/issues) untuk diskusi
-- Email: flagodna.com@gmail
+- Join [Whatsapp group](https://chat.whatsapp.com/J0IbBIJwDL80qBrHycW72t) untuk tanya-tanya
 
 ---
 
@@ -357,6 +512,50 @@ git push origin add-task-sholat-dhuha
 - **Adab & Akhlak** - Senyum, salam, tolong-menolong, dll
 
 Jika kategori yang kamu butuhkan belum ada, silakan usulkan di issue!
+
+---
+
+## 🌳 Branching Workflow Diagram
+
+```
+┌─────────────────────────────────────────────────┐
+│  1. Fork repo                                   │
+│  2. Clone fork kamu                             │
+│  3. git remote add upstream [original-repo]     │
+└────────────────┬────────────────────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────────────────────┐
+│  4. git checkout develop                        │
+│  5. git pull upstream develop                   │
+└────────────────┬────────────────────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────────────────────┐
+│  6. git checkout -b add-task-xxx                │
+│  7. Edit files (tasks.json, task_names.json)    │
+│  8. git commit -m "feat: add xxx"               │
+│  9. git push origin add-task-xxx                │
+└────────────────┬────────────────────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────────────────────┐
+│  10. Buat PR di GitHub                          │
+│      base: MAINTAINER/develop ← YOUR/add-task   │
+│  11. Tunggu review                              │
+│  12. Maintainer merge ke develop                │
+└─────────────────────────────────────────────────┘
+                 │
+                 ▼
+        ┌────────────────┐
+        │ develop branch │ ← Your PR merged here!
+        └────────┬───────┘
+                 │
+                 ▼ (Maintainer merges develop → main)
+        ┌────────────────┐
+        │  main branch   │ ← Production release
+        └────────────────┘
+```
 
 ---
 
