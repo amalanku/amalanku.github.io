@@ -9,27 +9,5 @@
     "isVerified": true,
     "categories": ["Zakat", "Infak", "Sedekah", "Program Sosial"],
     "rating": 4.8
-  },
-  {
-    "id": "2",
-    "name": "Rumah Yatim",
-    "description": "Organisasi nirlaba yang fokus pada pendidikan dan pengasuhan anak yatim.",
-    "logoUrl": "https://amalanku.github.io/data/APP/image/in-app/dompet-duafa.png",
-    "donationUrl": "https://rumahyatim.org/donasi",
-    "type": "Lembaga Sosial",
-    "isVerified": true,
-    "categories": ["Anak Yatim", "Pendidikan", "Sedekah"],
-    "rating": 4.6
-  },
-  {
-    "id": "3",
-    "name": "Aksi Cepat Tanggap",
-    "description": "Organisasi kemanusiaan yang bergerak dalam penanganan bencana dan program sosial.",
-    "logoUrl": "https://amalanku.github.io/data/APP/image/in-app/dompet-duafa.png",
-    "donationUrl": "https://act.id/donasi",
-    "type": "Lembaga Kemanusiaan",
-    "isVerified": true,
-    "categories": ["Bencana", "Kemanusiaan", "Sedekah"],
-    "rating": 4.7
   }
 ]
