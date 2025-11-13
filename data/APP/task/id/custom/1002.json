@@ -10,7 +10,7 @@
       "end_time": "11:30",
       "description": "Setelah Subuh hingga sebelum Dzuhur"
     },
-    "status": 2,
+    "status": 1,
     "name": "Dzikir Pagi",
     "group": "Dzikir & Doa",
     "desc": "Membaca dzikir pagi setelah sholat Subuh hingga sebelum Dzuhur.",
@@ -29,7 +29,7 @@
       "end_time": "17:45",
       "description": "Setelah Ashar hingga sebelum Maghrib"
     },
-    "status": 2,
+    "status": 1,
     "name": "Dzikir Petang",
     "group": "Dzikir & Doa",
     "desc": "Membaca dzikir petang setelah sholat Ashar hingga sebelum Maghrib.",
@@ -46,7 +46,7 @@
       "type": "all_day",
       "description": "Sepanjang hari"
     },
-    "status": 2,
+    "status": 1,
     "name": "Istighfar 100x",
     "group": "Dzikir & Doa",
     "desc": "Membaca istighfar (Astaghfirullah) minimal 100 kali dalam sehari.",
@@ -63,7 +63,7 @@
       "type": "all_day",
       "description": "Sepanjang hari"
     },
-    "status": 2,
+    "status": 1,
     "name": "Sholawat kepada Nabi",
     "group": "Dzikir & Doa",
     "desc": "Membaca sholawat kepada Nabi Muhammad ﷺ minimal 10 kali dalam sehari.",
@@ -82,7 +82,7 @@
       "end_time": "04:00",
       "description": "Sebelum tidur di malam hari"
     },
-    "status": 2,
+    "status": 1,
     "name": "Dzikir Sebelum Tidur",
     "group": "Dzikir & Doa",
     "desc": "Membaca dzikir dan doa sebelum tidur seperti Ayat Kursi, Al-Ikhlas, Al-Falaq, dan An-Nas.",
@@ -99,7 +99,7 @@
       "type": "all_day",
       "description": "Sepanjang hari"
     },
-    "status": 2,
+    "status": 1,
     "name": "Dzikir La Hawla Wala Quwwata",
     "group": "Dzikir & Doa",
     "desc": "Membaca ‘La hawla wa la quwwata illa billah’ sebagai pengingat bahwa kekuatan hanya milik Allah.",
@@ -116,7 +116,7 @@
       "type": "all_day",
       "description": "Sepanjang hari"
     },
-    "status": 2,
+    "status": 1,
     "name": "Membaca Ayat Kursi",
     "group": "Dzikir & Doa",
     "desc": "Membaca Ayat Kursi setelah setiap sholat fardhu (5 waktu).",

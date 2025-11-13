@@ -8,7 +8,7 @@
       "type": "all_day",
       "description": "Whole day"
     },
-    "status": 2,
+    "status": 1,
     "name": "Sedekah Seikhlasnya",
     "group": "Sedekah & Infak",
     "desc": "Bersedekah dengan jumlah berapapun, yang penting ikhlas dan rutin",
@@ -26,7 +26,7 @@
       "day": "friday",
       "description": "Every Friday"
     },
-    "status": 2,
+    "status": 1,
     "name": "Sedekah Jumat",
     "group": "Sedekah & Infak",
     "desc": "Sisihkan sedikit uang untuk sedekah setiap hari Jumat",
@@ -43,7 +43,7 @@
       "type": "all_day",
       "description": "Whole day"
     },
-    "status": 2,
+    "status": 3,
     "name": "Senyum untuk Sesama",
     "group": "Sedekah & Infak",
     "desc": "Tersenyum kepada orang lain, sedekah yang mudah dan menyenangkan",
@@ -60,7 +60,7 @@
       "type": "all_day",
       "description": "Whole day"
     },
-    "status": 2,
+    "status": 1,
     "name": "Berbagi Makanan Kecil",
     "group": "Sedekah & Infak",
     "desc": "Berbagi makanan/minuman dengan teman, keluarga, atau orang sekitar",
@@ -77,7 +77,7 @@
       "type": "all_day",
       "description": "Whole day"
     },
-    "status": 2,
+    "status": 3,
     "name": "Membantu Orang Lain",
     "group": "Sedekah & Infak",
     "desc": "Membantu siapapun yang membutuhkan bantuan fisik atau tenaga",
@@ -94,7 +94,7 @@
       "type": "all_day",
       "description": "Whole day"
     },
-    "status": 2,
+    "status": 1,
     "name": "Berbagi Ilmu yang Bermanfaat",
     "group": "Sedekah & Infak",
     "desc": "Mengajarkan atau membagikan ilmu yang bermanfaat kepada orang lain",
@@ -111,7 +111,7 @@
       "type": "all_day",
       "description": "Whole day"
     },
-    "status": 2,
+    "status": 3,
     "name": "Berkata Baik",
     "group": "Sedekah & Infak",
     "desc": "Mengucapkan kata-kata yang baik, positif, dan menyenangkan hati orang lain",
@@ -128,7 +128,7 @@
       "type": "all_day",
       "description": "Whole day"
     },
-    "status": 2,
+    "status": 1,
     "name": "Mendo'akan Sesama Muslim",
     "group": "Sedekah & Infak",
     "desc": "Mendo'akan kebaikan untuk saudara seiman tanpa sepengetahuan mereka",
