@@ -1,0 +1,139 @@
+[
+  {
+    "id": 1,
+    "created_at": "2025-01-15T06:00:00.000000+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Sedekah Seikhlasnya",
+    "group": "Sedekah & Infak",
+    "desc": "Bersedekah dengan jumlah berapapun, yang penting ikhlas dan rutin",
+    "source": "Rasulullah ﷺ bersabda: \"Lindungilah dirimu dari api neraka walau hanya dengan (bersedekah) sebiji kurma.\" (HR. Bukhari no. 1417, Muslim no. 1016). \"Sedekah itu tidak mengurangi harta.\" (HR. Muslim no. 2588)",
+    "level": 1,
+    "unique_id": 4001
+  },
+  {
+    "id": 2,
+    "created_at": "2025-01-15T06:00:00.000000+00:00",
+    "max_poin": 4,
+    "type": 1,
+    "rule": {
+      "type": "weekly",
+      "day": "friday",
+      "description": "Every Friday"
+    },
+    "status": 2,
+    "name": "Sedekah Jumat",
+    "group": "Sedekah & Infak",
+    "desc": "Sisihkan sedikit uang untuk sedekah setiap hari Jumat",
+    "source": "Rasulullah ﷺ bersabda: \"Sebaik-baik hari yang matahari terbit padanya adalah hari Jum'at.\" (HR. Muslim no. 854). Bersedekah di hari yang penuh berkah ini akan melipatgandakan pahala.",
+    "level": 1,
+    "unique_id": 3005
+  },
+  {
+    "id": 3,
+    "created_at": "2025-01-15T06:00:00.000000+00:00",
+    "max_poin": 2,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Senyum untuk Sesama",
+    "group": "Sedekah & Infak",
+    "desc": "Tersenyum kepada orang lain, sedekah yang mudah dan menyenangkan",
+    "source": "Rasulullah ﷺ bersabda: \"Senyummu di hadapan saudaramu adalah sedekah.\" (HR. Tirmidzi no. 1956). Ini adalah sedekah yang paling mudah dan tidak perlu mengeluarkan harta!",
+    "level": 1,
+    "unique_id": 4003
+  },
+  {
+    "id": 4,
+    "created_at": "2025-01-15T06:00:00.000000+00:00",
+    "max_poin": 2,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Berbagi Makanan Kecil",
+    "group": "Sedekah & Infak",
+    "desc": "Berbagi makanan/minuman dengan teman, keluarga, atau orang sekitar",
+    "source": "Rasulullah ﷺ bersabda: \"Wahai manusia, sebarkanlah salam, berilah makan, niscaya kalian masuk surga dengan selamat.\" (HR. Tirmidzi no. 2485, shahih). Berbagi makanan kecil seperti permen atau minuman juga termasuk sedekah!",
+    "level": 1,
+    "unique_id": 4004
+  },
+  {
+    "id": 5,
+    "created_at": "2025-01-15T06:00:00.000000+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Membantu Orang Lain",
+    "group": "Sedekah & Infak",
+    "desc": "Membantu siapapun yang membutuhkan bantuan fisik atau tenaga",
+    "source": "Rasulullah ﷺ bersabda: \"Setiap kebaikan adalah sedekah.\" (HR. Muslim no. 1005). Membantu mengangkat barang, menunjukkan jalan, atau membantu pekerjaan orang lain adalah sedekah.",
+    "level": 1,
+    "unique_id": 4005
+  },
+  {
+    "id": 6,
+    "created_at": "2025-01-15T06:00:00.000000+00:00",
+    "max_poin": 2,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Berbagi Ilmu yang Bermanfaat",
+    "group": "Sedekah & Infak",
+    "desc": "Mengajarkan atau membagikan ilmu yang bermanfaat kepada orang lain",
+    "source": "Rasulullah ﷺ bersabda: \"Barangsiapa yang menunjukkan kepada kebaikan, maka baginya pahala seperti orang yang melakukannya.\" (HR. Muslim no. 1893). Berbagi tips, resep, atau pengetahuan bermanfaat juga termasuk sedekah jariyah!",
+    "level": 1,
+    "unique_id": 4007
+  },
+  {
+    "id": 7,
+    "created_at": "2025-01-15T06:00:00.000000+00:00",
+    "max_poin": 2,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Berkata Baik",
+    "group": "Sedekah & Infak",
+    "desc": "Mengucapkan kata-kata yang baik, positif, dan menyenangkan hati orang lain",
+    "source": "Rasulullah ﷺ bersabda: \"Perkataan yang baik adalah sedekah.\" (HR. Bukhari no. 2989, Muslim no. 1009). Memberi semangat, pujian, atau doa untuk orang lain adalah sedekah yang mudah!",
+    "level": 1,
+    "unique_id": 4008
+  },
+  {
+    "id": 8,
+    "created_at": "2025-01-15T06:00:00.000000+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Whole day"
+    },
+    "status": 2,
+    "name": "Mendo'akan Sesama Muslim",
+    "group": "Sedekah & Infak",
+    "desc": "Mendo'akan kebaikan untuk saudara seiman tanpa sepengetahuan mereka",
+    "source": "Rasulullah ﷺ bersabda: \"Do'a seorang muslim untuk saudaranya yang dilakukan tanpa sepengetahuan orang yang didoakan adalah do'a yang akan dikabulkan. Di kepalanya ada malaikat yang bertugas mengaminkan do'anya, setiap kali ia berdo'a untuk saudaranya dengan sebuah kebaikan, malaikat itu berkata: 'Aamiin, dan engkau pun mendapat kebaikan serupa'.\" (HR. Muslim no. 2733)",
+    "level": 1,
+    "unique_id": 4011
+  }
+]

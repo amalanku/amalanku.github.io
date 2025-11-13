@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "created_at": "2025-07-29T13:59:18.662529+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "end_time": "05:00",
+      "start_time": "04:00"
+    },
+    "status": 1,
+    "name": "Qabliyah Subuh / Fajar",
+    "group": "Sholat Sunnah",
+    "desc": null,
+    "source": "Dari Aisyah, dari Nabi SAW beliau bersabda, “Dua reka’at shalat Fajar itu lebih baik dari pada dunia seisinya”. [HR. Muslim juz 1, hal. 501]",
+    "level": 3,
+    "unique_id": 1002
+  },
+  {
+    "id": 2,
+    "created_at": "2025-01-15T08:00:00.000000+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "start_time": "06:00",
+      "end_time": "11:30",
+      "description": "After sunrise until before Dhuhr"
+    },
+    "status": 2,
+    "name": "Shalat Dhuha",
+    "group": "Shalat Sunnah",
+    "desc": "Mengerjakan shalat Dhuha minimal 2 rakaat di waktu pagi",
+    "source": "Rasulullah ﷺ bersabda: \"Barangsiapa yang mengerjakan shalat Dhuha dengan konsisten, akan diampuni dosa-dosanya walaupun sebanyak buih di lautan.\" (HR. Tirmidzi no. 473, hasan). \"Setiap pagi dari setiap persendian tubuhmu ada sedekahnya. Maka cukuplah dua rakaat Dhuha sebagai pengganti semuanya.\" (HR. Muslim no. 720)",
+    "level": 1,
+    "unique_id": 1003
+  },
+  {
+    "id": 3,
+    "created_at": "2025-07-29T14:25:57.145392+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "end_time": "13:00",
+      "start_time": "11:00"
+    },
+    "status": 1,
+    "name": "Sholat Qabliyah Dzuhur",
+    "group": "Sholat Sunnah",
+    "desc": null,
+    "source": "Dari Ummu Habibah, ia berkata : Rasulullah SAW bersabda, “Barangsiapa shalat (sunnah) sehari semalam 12 reka'at, maka akan dibuatkan baginya rumah di surga; yaitu 4 reka'at sebelum shalat Dhuhur, 2 reka'at sesudah shalat Dhuhur, 2 reka'at sesudah shalat Maghrib, 2 reka'at sesudah shalat 'Isyak dan 2 reka'at sebelum shalat Shubuh”. [HR. Tirmidzi juz 1, hal. 259, no. 413, ia berkata : Ini hadits hasan shahih]",
+    "level": 3,
+    "unique_id": 1004
+  },
+  {
+    "id": 4,
+    "created_at": "2025-07-29T14:27:52.978356+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "end_time": "14:00",
+      "start_time": "12:00"
+    },
+    "status": 1,
+    "name": "Sholat Ba’diyah Dzuhur",
+    "group": "Sholat Sunnah",
+    "desc": null,
+    "source": "\"Dari Ibnu Umar RA, ia berkata, “Saya hafal (ingat dengan betul) dari Nabi SAW sepuluh raka’at shalat sunnah; dua raka’at sebelum shalat Dhuhur dan dua raka’at sesudahnya, dan dua raka’at sesudah Maghrib di rumah beliau dan dua raka’at sesudah 'Isya di rumah pula dan juga dua raka’at sebelum shalat Shubuh”. [HR. Bukhari juz 2, hal. 54]\"",
+    "level": 3,
+    "unique_id": 1005
+  },
+  {
+    "id": 5,
+    "created_at": "2025-07-29T14:58:07.018359+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "end_time": "18:45",
+      "start_time": "08:00"
+    },
+    "status": 1,
+    "name": "Sholat Ba’diyah Maghrib",
+    "group": "Sholat Sunnah",
+    "desc": null,
+    "source": "\"Dari Ibnu Umar RA, ia berkata, “Saya hafal (ingat dengan betul) dari Nabi SAW sepuluh raka’at shalat sunnah; dua raka’at sebelum shalat Dhuhur dan dua raka’at sesudahnya, dan dua raka’at sesudah Maghrib di rumah beliau dan dua raka’at sesudah 'Isya di rumah pula dan juga dua raka’at sebelum shalat Shubuh”. [HR. Bukhari juz 2, hal. 54]\"",
+    "level": 3,
+    "unique_id": 1006
+  },
+  {
+    "id": 6,
+    "created_at": "2025-07-29T15:19:25.121114+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "end_time": "20:00",
+      "start_time": "19:00"
+    },
+    "status": 1,
+    "name": "Sholat Ba’diyah Isya",
+    "group": "Sholat Sunnah",
+    "desc": "Mengerjakan sholat Isya tepat waktu",
+    "source": "Dari Ummu Habibah, ia berkata : Rasulullah SAW bersabda, “Barangsiapa shalat (sunnah) sehari semalam 12 reka'at, maka akan dibuatkan baginya rumah di surga; yaitu 4 reka'at sebelum shalat Dhuhur, 2 reka'at sesudah shalat Dhuhur, 2 reka'at sesudah shalat Maghrib, 2 reka'at sesudah shalat 'Isyak dan 2 reka'at sebelum shalat Shubuh”. [HR. Tirmidzi juz 1, hal. 259, no. 413, ia berkata : Ini hadits hasan shahih]",
+    "level": 3,
+    "unique_id": 1007
+  },
+  {
+    "id": 7,
+    "created_at": "2025-01-15T22:00:00.000000+00:00",
+    "max_poin": 7,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "start_time": "20:00",
+      "end_time": "04:00",
+      "description": "After Isya until before Fajr"
+    },
+    "status": 2,
+    "name": "Shalat Tahajud/ Qiyamullail",
+    "group": "Shalat Sunnah",
+    "desc": "Bangun di sepertiga malam untuk shalat tahajud minimal 2 rakaat",
+    "source": "\"Dan pada sebagian malam hari bersembahyang tahajudlah kamu sebagai suatu ibadah tambahan bagimu; mudah-mudahan Tuhanmu mengangkat kamu ke tempat yang terpuji.\" (QS. Al-Isra: 79). Rasulullah ﷺ bersabda: \"Shalat yang paling utama setelah shalat wajib adalah shalat malam.\" (HR. Muslim no. 1163)",
+    "level": 2,
+    "unique_id": 1008
+  },
+  {
+    "id": 8,
+    "created_at": "2025-01-15T23:00:00.000000+00:00",
+    "max_poin": 4,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "start_time": "19:30",
+      "end_time": "23:59",
+      "description": "After Isya prayer"
+    },
+    "status": 2,
+    "name": "Shalat Witir",
+    "group": "Shalat Sunnah",
+    "desc": "Mengerjakan shalat witir minimal 1 rakaat sebelum tidur",
+    "source": "Rasulullah ﷺ bersabda: \"Sesungguhnya Allah itu ganjil dan menyukai yang ganjil. Maka laksanakanlah shalat witir wahai ahli Al-Qur'an.\" (HR. Abu Dawud no. 1416, Tirmidzi no. 453, shahih). \"Jadikanlah shalat witir sebagai shalat terakhirmu di malam hari.\" (HR. Bukhari no. 998, Muslim no. 751)",
+    "level": 1,
+    "unique_id": 1009
+  }
+]

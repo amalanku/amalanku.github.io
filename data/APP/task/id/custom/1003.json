@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "created_at": "2025-07-29T16:44:33.001029+00:00",
+    "max_poin": 5,
+    "type": 2,
+    "rule": {
+      "day": "monday",
+      "type": "weekly",
+      "duration": "all_day"
+    },
+    "status": 1,
+    "name": "Puasa Sunnah - Hari Senin",
+    "group": "Puasa Sunnah",
+    "desc": "Berpuasa sunnah pada hari Senin, sebagaimana Rasulullah ﷺ senang amalnya diangkat saat berpuasa",
+    "source": "\"Pada hari senin dan kamis semua amalan dinaikkan kepada Allah ta'ala, maka saya lebih suka amalanku dinaikkan kepada-Nya ketika saya sedang berpuasa\". Abu 'Isa berkata: dalam hal ini hadits Abu Hurairah merupakan hadits hasan gharib. [HR. Tirmidzi no. 678 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 1012
+  },
+  {
+    "id": 2,
+    "created_at": "2025-07-29T16:45:25.203507+00:00",
+    "max_poin": 5,
+    "type": 2,
+    "rule": {
+      "day": "thursday",
+      "type": "weekly",
+      "duration": "all_day"
+    },
+    "status": 1,
+    "name": "Puasa Sunnah - Hari Kamis",
+    "group": "Puasa Sunnah",
+    "desc": "Berpuasa sunnah pada hari Kamis, hari di mana amal manusia diperlihatkan kepada Allah",
+    "source": "“Sesungguhnya pintu-pintu surga dibuka pada hari Senin dan Kamis. Semua dosa hamba yang tidak menyekutukan Allah dengan sesuatu akan diampuni, kecuali bagi orang yang antara dia dan saudaranya terdapat kebencian dan perpecahan.” [HR. Muslim no. 4652 - aplikasi HadisKu]",
+    "level": 3,
+    "unique_id": 1013
+  }
+]

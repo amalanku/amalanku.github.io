@@ -31,21 +31,12 @@
     "author": "@cas8398",
     "widget_deeds": false,
     "widget_shalat": false,
-    "title": "Tilawah Quran 2x",
-    "desc": "Membaca Al-Quran 2x setiap hari",
-    "category": "Quran"
-  },
-  {
-    "id": 1005,
-    "author": "@cas8398",
-    "widget_deeds": false,
-    "widget_shalat": false,
     "title": "Sedekah",
     "desc": "Bersedekah secara rutin",
     "category": "Sedekah"
   },
   {
-    "id": 1006,
+    "id": 1005,
     "author": "@cas8398",
     "widget_deeds": false,
     "widget_shalat": false,

@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "created_at": "2025-01-15T06:00:00.000000+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "start_time": "04:30",
+      "end_time": "11:30",
+      "description": "Setelah Subuh hingga sebelum Dzuhur"
+    },
+    "status": 2,
+    "name": "Dzikir Pagi",
+    "group": "Dzikir & Doa",
+    "desc": "Membaca dzikir pagi setelah sholat Subuh hingga sebelum Dzuhur.",
+    "source": "Rasulullah ﷺ bersabda: “Barangsiapa yang membaca Ayat Kursi setiap selesai shalat fardhu, maka tidak ada yang menghalanginya untuk masuk surga kecuali kematian.” (HR. An-Nasa’i no. 9848, dishahihkan oleh Syaikh Al-Albani). Beliau juga bersabda: “Barangsiapa membaca ‘Subhanallah’ sebanyak 100 kali di waktu pagi dan petang, maka tidak ada yang datang pada hari kiamat yang lebih baik dari apa yang ia bawa kecuali orang yang mengucapkan seperti itu atau lebih banyak.” (HR. Muslim no. 2691)",
+    "level": 1,
+    "unique_id": 3001
+  },
+  {
+    "id": 2,
+    "created_at": "2025-01-15T15:00:00.000000+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "start_time": "15:00",
+      "end_time": "17:45",
+      "description": "Setelah Ashar hingga sebelum Maghrib"
+    },
+    "status": 2,
+    "name": "Dzikir Petang",
+    "group": "Dzikir & Doa",
+    "desc": "Membaca dzikir petang setelah sholat Ashar hingga sebelum Maghrib.",
+    "source": "Rasulullah ﷺ bersabda: “Barangsiapa membaca dzikir pagi dan petang, maka ia akan dilindungi dari segala keburukan pada hari itu.” (HR. Abu Dawud no. 5082). Beliau juga bersabda: “Barangsiapa yang membaca ‘Laa ilaaha illallahu wahdahu laa syarika lah, lahul mulku wa lahul hamdu wa huwa ‘ala kulli syai’in qadiir’ sebanyak 100 kali dalam sehari, maka baginya pahala seperti memerdekakan sepuluh budak.” (HR. Bukhari no. 3293, Muslim no. 2691)",
+    "level": 1,
+    "unique_id": 3002
+  },
+  {
+    "id": 3,
+    "created_at": "2025-01-15T06:00:00.000000+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Sepanjang hari"
+    },
+    "status": 2,
+    "name": "Istighfar 100x",
+    "group": "Dzikir & Doa",
+    "desc": "Membaca istighfar (Astaghfirullah) minimal 100 kali dalam sehari.",
+    "source": "Rasulullah ﷺ bersabda: “Demi Allah, sesungguhnya aku beristighfar dan bertaubat kepada Allah dalam sehari lebih dari 70 kali.” (HR. Bukhari no. 6307). Beliau juga bersabda: “Barangsiapa memperbanyak istighfar, niscaya Allah akan menjadikan baginya jalan keluar dari setiap kesempitan, kelapangan dari setiap kesusahan, dan memberinya rezeki dari arah yang tidak disangka-sangka.” (HR. Abu Dawud no. 1518, dishahihkan oleh Al-Albani)",
+    "level": 2,
+    "unique_id": 3003
+  },
+  {
+    "id": 4,
+    "created_at": "2025-01-15T06:00:00.000000+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Sepanjang hari"
+    },
+    "status": 2,
+    "name": "Sholawat kepada Nabi",
+    "group": "Dzikir & Doa",
+    "desc": "Membaca sholawat kepada Nabi Muhammad ﷺ minimal 10 kali dalam sehari.",
+    "source": "Rasulullah ﷺ bersabda: “Barangsiapa bershalawat kepadaku satu kali, maka Allah akan bershalawat kepadanya sepuluh kali.” (HR. Muslim no. 384). Beliau juga bersabda: “Orang yang paling berhak denganku pada hari kiamat adalah orang yang paling banyak bershalawat kepadaku.” (HR. Tirmidzi no. 484, hasan)",
+    "level": 1,
+    "unique_id": 3005
+  },
+  {
+    "id": 5,
+    "created_at": "2025-01-15T21:00:00.000000+00:00",
+    "max_poin": 2,
+    "type": 1,
+    "rule": {
+      "type": "time_range",
+      "start_time": "21:00",
+      "end_time": "04:00",
+      "description": "Sebelum tidur di malam hari"
+    },
+    "status": 2,
+    "name": "Dzikir Sebelum Tidur",
+    "group": "Dzikir & Doa",
+    "desc": "Membaca dzikir dan doa sebelum tidur seperti Ayat Kursi, Al-Ikhlas, Al-Falaq, dan An-Nas.",
+    "source": "Rasulullah ﷺ bersabda: “Apabila kamu hendak tidur, bacalah Ayat Kursi sampai selesai. Maka akan senantiasa ada penjaga dari Allah yang melindungimu, dan setan tidak akan mendekatimu sampai pagi.” (HR. Bukhari no. 2311). Rasulullah ﷺ juga mengajarkan untuk membaca Al-Ikhlas, Al-Falaq, dan An-Nas sambil meniupkan ke kedua telapak tangan lalu mengusapkannya ke seluruh tubuh sebelum tidur. (HR. Bukhari no. 5017)",
+    "level": 1,
+    "unique_id": 3006
+  },
+  {
+    "id": 6,
+    "created_at": "2025-01-15T06:00:00.000000+00:00",
+    "max_poin": 5,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Sepanjang hari"
+    },
+    "status": 2,
+    "name": "Dzikir La Hawla Wala Quwwata",
+    "group": "Dzikir & Doa",
+    "desc": "Membaca ‘La hawla wa la quwwata illa billah’ sebagai pengingat bahwa kekuatan hanya milik Allah.",
+    "source": "Rasulullah ﷺ bersabda: “Maukah aku tunjukkan kepadamu salah satu perbendaharaan surga? (Yaitu) ‘La hawla wa la quwwata illa billah.’” (HR. Bukhari no. 4205, Muslim no. 2704). Kalimat ini merupakan dzikir yang menenangkan hati dan memperkuat tawakal.",
+    "level": 2,
+    "unique_id": 3008
+  },
+  {
+    "id": 7,
+    "created_at": "2025-01-15T06:00:00.000000+00:00",
+    "max_poin": 3,
+    "type": 1,
+    "rule": {
+      "type": "all_day",
+      "description": "Sepanjang hari"
+    },
+    "status": 2,
+    "name": "Membaca Ayat Kursi",
+    "group": "Dzikir & Doa",
+    "desc": "Membaca Ayat Kursi setelah setiap sholat fardhu (5 waktu).",
+    "source": "Rasulullah ﷺ bersabda: “Barangsiapa yang membaca Ayat Kursi setiap selesai shalat fardhu, maka tidak ada yang menghalanginya untuk masuk surga kecuali kematian.” (HR. An-Nasa’i no. 9848, dishahihkan oleh Syaikh Al-Albani). Ayat Kursi adalah ayat paling agung dalam Al-Qur’an.",
+    "level": 1,
+    "unique_id": 3012
+  }
+]
