@@ -9,5 +9,16 @@
     "isVerified": true,
     "categories": ["Zakat", "Infak", "Sedekah", "Program Sosial"],
     "rating": 4.8
+  },
+  {
+    "id": "2",
+    "name": "Sociabuzz — Amalanku Campaign",
+    "description": "Halaman campaign infak yang dikelola langsung oleh Amalanku melalui platform Sociabuzz.",
+    "logoUrl": "https://amalanku.github.io/data/APP/image/in-app/sociabuzz.png",
+    "donationUrl": "https://sociabuzz.com/amalanku/tribe",
+    "type": "Platform Donasi",
+    "isVerified": true,
+    "categories": ["Infak", "Sedekah"],
+    "rating": 4.7
   }
 ]
