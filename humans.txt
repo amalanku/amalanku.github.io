@@ -1,0 +1,15 @@
+# AmalanKu - Humans.txt
+/* TEAM */
+    Lead Developer: Cahyanudien Aziz Saputra
+    Contact: https://github.com/cas8398
+    Website: https://www.cahyanudien.site
+
+/* SITE */
+    Last update: 2026-05-05
+    Language: Indonesian, English
+    Standards: HTML5, CSS3, WCAG 2.1
+    Domain: amalanku.github.io
+
+/* THANKS */
+    FlagoDNA - https://flagodna.com
+    Contributors: Iin Khairunnisa, Robby A. Herlambang

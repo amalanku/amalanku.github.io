@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AmalanKu - Update & Berita</title>
+    <link>https://amalanku.github.io/</link>
+    <description>Update terbaru aplikasi AmalanKu - Aplikasi pencatat amalan harian untuk Muslim</description>
+    <language>id</language>
+    <atom:link href="https://amalanku.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title>AmalanKu Versi 1.2.0 Rilis</title>
+      <link>https://amalanku.github.io/</link>
+      <description>Fitur baru: Widget progress di home screen dan ekspor ke PDF</description>
+      <pubDate>Mon, 05 May 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

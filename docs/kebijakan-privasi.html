@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Kebijakan Privasi | Amalanku</title>
+    <meta
+      name="description"
+      content="Kebijakan Privasi Amalanku - Aplikasi pencatat amalan harian untuk Muslim. Data 100% lokal, tidak ada server, privasi terjaga."
+    />
+    <link rel="icon" type="image/png" href="../assets/icon/amalanku.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "DM Sans", system-ui, sans-serif;
+        background: #faf8f3;
+        color: #111827;
+        line-height: 1.65;
+      }
+
+      .privacy-header {
+        background: linear-gradient(
+          160deg,
+          #0a2218 0%,
+          #0d2e20 45%,
+          #14452f 100%
+        );
+        padding: 100px 0 60px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .privacy-header::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: linear-gradient(
+            rgba(255, 255, 255, 0.03) 1px,
+            transparent 1px
+          ),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        background-size: 60px 60px;
+      }
+
+      .privacy-header__inner {
+        position: relative;
+        z-index: 2;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 24px;
+      }
+
+      .privacy-header__badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: rgba(77, 191, 137, 0.12);
+        border: 1px solid rgba(77, 191, 137, 0.25);
+        padding: 6px 16px;
+        border-radius: 9999px;
+        font-size: 13px;
+        font-weight: 500;
+        color: #8ddbb5;
+        margin-bottom: 24px;
+      }
+
+      .privacy-header h1 {
+        font-family: "Playfair Display", Georgia, serif;
+        font-size: clamp(32px, 5vw, 48px);
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 20px;
+      }
+
+      .privacy-header__date {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 14px;
+      }
+
+      .privacy-header__back {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: #8ddbb5;
+        margin-top: 32px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        transition: gap 0.2s;
+      }
+
+      .privacy-header__back:hover {
+        gap: 12px;
+        color: #4dbf89;
+      }
+
+      .privacy-content {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 60px 24px 100px;
+      }
+
+      .privacy-card {
+        background: #fff;
+        border-radius: 24px;
+        padding: 48px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+        border: 1px solid #d1d5db;
+      }
+
+      @media (max-width: 640px) {
+        .privacy-card {
+          padding: 32px 24px;
+        }
+      }
+
+      .privacy-card h2 {
+        font-family: "Playfair Display", Georgia, serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #0a2218;
+        margin: 32px 0 16px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid #d1f5e5;
+      }
+
+      .privacy-card h2:first-of-type {
+        margin-top: 0;
+      }
+
+      .privacy-card h3 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #14452f;
+        margin: 24px 0 12px;
+      }
+
+      .privacy-card p {
+        font-size: 15px;
+        color: #374151;
+        margin-bottom: 16px;
+        line-height: 1.7;
+      }
+
+      .privacy-card ul,
+      .privacy-card ol {
+        margin: 12px 0 20px 24px;
+      }
+
+      .privacy-card li {
+        font-size: 15px;
+        color: #374151;
+        margin-bottom: 8px;
+        line-height: 1.65;
+      }
+
+      .privacy-card strong {
+        color: #0a2218;
+        font-weight: 700;
+      }
+
+      .privacy-highlight {
+        background: #f0faf5;
+        border-left: 4px solid #217a51;
+        padding: 20px 24px;
+        border-radius: 12px;
+        margin: 24px 0;
+      }
+
+      .privacy-highlight p {
+        margin-bottom: 0;
+        color: #0d2e20;
+      }
+
+      .privacy-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 16px;
+        margin: 24px 0;
+      }
+
+      .privacy-grid-item {
+        background: #f9fafb;
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        padding: 16px;
+      }
+
+      .privacy-grid-item strong {
+        display: block;
+        font-size: 14px;
+        margin-bottom: 6px;
+      }
+
+      .privacy-grid-item span {
+        font-size: 13px;
+        color: #6b7280;
+      }
+
+      hr {
+        margin: 32px 0;
+        border: none;
+        border-top: 1px solid #e5e7eb;
+      }
+
+      .footer-note {
+        background: #f3f4f6;
+        border-radius: 12px;
+        padding: 20px;
+        text-align: center;
+        margin-top: 32px;
+      }
+
+      .footer-note p {
+        margin-bottom: 0;
+        font-size: 13px;
+        color: #6b7280;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="privacy-header">
+      <div class="privacy-header__inner">
+        <div class="privacy-header__badge">
+          <span>🕌</span>
+          <span>Lokal · Privat · Tanpa Cloud</span>
+        </div>
+        <h1>Kebijakan Privasi<br />Amalanku</h1>
+        <p class="privacy-header__date">Terakhir diperbarui: 17 Agustus 2025</p>
+      </div>
+    </header>
+
+    <div class="privacy-content">
+      <div class="privacy-card">
+        <p>
+          <strong>Amalanku</strong> ("Aplikasi") dirancang untuk membantu umat
+          Muslim menjaga konsistensi ibadah harian. Kebijakan ini menjelaskan
+          data apa yang dikumpulkan dan bagaimana kami menanganinya dengan
+          menghormati privasi Anda.
+        </p>
+
+        <h2>🔍 Pengumpulan Data</h2>
+        <h3>Data yang Dikumpulkan:</h3>
+        <ul>
+          <li>
+            <strong>Data Minimal:</strong> Amalanku dirancang untuk mengumpulkan
+            data sesedikit mungkin dan sebagian besar beroperasi secara offline
+          </li>
+          <li>
+            <strong>Catatan Amalan:</strong> Rekaman amalan harian Anda (shalat,
+            dzikir, membaca Al-Quran) tersimpan hanya di perangkat Anda
+          </li>
+          <li>
+            <strong>Preferensi Pengguna:</strong> Pengaturan notifikasi,
+            reminder, dan konfigurasi aplikasi (disimpan secara lokal)
+          </li>
+          <li>
+            <strong>Waktu Shalat & Masjid Terdekat:</strong> Perhitungan waktu
+            shalat dan lokasi masjid terdekat berdasarkan lokasi, diproses
+            secara lokal
+          </li>
+        </ul>
+
+        <h3>Data yang Tidak Dikumpulkan:</h3>
+        <ul>
+          <li>
+            <strong>Informasi Pribadi:</strong> Tidak mengumpulkan nama, email,
+            nomor telepon, atau data identitas lainnya
+          </li>
+          <li>
+            <strong>Analitik Penggunaan:</strong> Tidak memantau cara Anda
+            menggunakan aplikasi
+          </li>
+          <li>
+            <strong>Informasi Perangkat:</strong> Hanya sesuai kebutuhan fungsi
+            aplikasi
+          </li>
+          <li>
+            <strong>Data Akun:</strong> Tidak ada akun online atau cloud, semua
+            tetap di perangkat
+          </li>
+          <li>
+            <strong>Data Perilaku:</strong> Tidak memantau atau menganalisis
+            aktivitas spiritual Anda
+          </li>
+        </ul>
+
+        <h3>Penyimpanan Lokal:</h3>
+        <ul>
+          <li>
+            <strong>Tujuan:</strong> Menyimpan catatan amalan, preferensi, dan
+            pengaturan aplikasi secara lokal
+          </li>
+          <li>
+            <strong>Lokasi:</strong> Semua data tersimpan hanya di perangkat
+            Anda
+          </li>
+          <li>
+            <strong>Kontrol:</strong> Anda dapat menghapus data kapan saja
+            melalui pengaturan aplikasi
+          </li>
+        </ul>
+
+        <h2>🌐 Izin & Akses Jaringan</h2>
+        <h3>Izin yang Diperlukan:</h3>
+        <ul>
+          <li>
+            <strong>Storage:</strong> Untuk mengekspor catatan amalan ke PDF
+            sebagai cadangan atau dibagikan
+          </li>
+          <li>
+            <strong>Notifikasi:</strong> Untuk reminder waktu shalat dan amalan
+          </li>
+          <li>
+            <strong>Lokasi (Opsional):</strong> Untuk menghitung waktu shalat
+            dan menampilkan masjid terdekat; semua proses menghormati privasi
+            Anda
+          </li>
+          <li>
+            <strong>Internet:</strong> Diperlukan hanya untuk mengambil konten
+            dari API Amalanku (waktu shalat, doa, dzikir)
+          </li>
+        </ul>
+        <p>
+          <strong>Data Pribadi Tidak Dikirim:</strong> Aplikasi tidak mengirim
+          info pribadi Anda ke API
+        </p>
+
+        <h3>Yang Tidak Diakses:</h3>
+        <ul>
+          <li>❌ Kamera: Tidak diakses</li>
+          <li>❌ Kontak: Tidak diakses</li>
+          <li>❌ Mikrofon: Tidak diakses</li>
+          <li>❌ Telepon: Tidak diakses</li>
+        </ul>
+        <p>
+          <strong>Catatan:</strong> Semua pemrosesan data terjadi secara lokal
+          di perangkat Anda. Tidak ada data yang dikirim ke server eksternal
+          atau pihak ketiga.
+        </p>
+
+        <h2>🛡️ Keamanan & Privasi</h2>
+        <ul>
+          <li>
+            <strong>Pemrosesan Lokal:</strong> Semua pelacakan amalan dan
+            perhitungan dilakukan di perangkat
+          </li>
+          <li>
+            <strong>Tanpa Transmisi Data:</strong> Data amalan tidak pernah
+            meninggalkan perangkat
+          </li>
+          <li>
+            <strong>Tidak Ada Server Eksternal:</strong> Amalanku tidak
+            menggunakan server atau cloud eksternal
+          </li>
+          <li>
+            <strong>Offline:</strong> Aplikasi berfungsi sepenuhnya offline
+          </li>
+          <li>
+            <strong>Enkripsi Data:</strong> Data lokal tersimpan aman dengan
+            enkripsi perangkat
+          </li>
+        </ul>
+
+        <h2>📊 Layanan Pihak Ketiga</h2>
+        <p>Amalanku beroperasi secara mandiri:</p>
+        <ul>
+          <li><strong>Tidak Ada Layanan Pihak Ketiga</strong></li>
+          <li>
+            ❌ Tidak Ada Analitik: Tidak menggunakan Google Analytics, Firebase,
+            atau layanan tracking
+          </li>
+          <li>❌ Tidak Ada Iklan: Aplikasi sepenuhnya bebas iklan</li>
+          <li>❌ Tidak Ada Cloud: Data tidak tersimpan di cloud</li>
+          <li>❌ Tidak Ada Integrasi Sosial Media</li>
+          <li>❌ Tidak Ada Laporan Crash yang Mengumpulkan Data</li>
+        </ul>
+
+        <h3>Berbagi Data:</h3>
+        <ul>
+          <li>
+            <strong>Tidak Ada Berbagi Data:</strong> Semua data tetap di
+            perangkat
+          </li>
+          <li>
+            <strong>Kontrol Ekspor:</strong> Hanya Anda yang dapat mengekspor
+            data sebagai PDF
+          </li>
+        </ul>
+
+        <h2>🍪 Cookies dan Tracking</h2>
+        <ul>
+          <li>❌ Tidak Ada Cookies</li>
+          <li>❌ Tidak Ada Tracking</li>
+          <li>❌ Tidak Ada ID Iklan</li>
+          <li>❌ Tidak Ada Fingerprinting</li>
+        </ul>
+
+        <h2>👶 Privasi Anak</h2>
+        <p>
+          Amalanku aman untuk semua usia, termasuk anak-anak. Karena tidak
+          mengumpulkan informasi pribadi dan bekerja offline, tidak ada masalah
+          privasi untuk anak di bawah 13 tahun.
+        </p>
+
+        <h2>🧑⚖️ Kepatuhan</h2>
+        <ul>
+          <li>
+            <strong>GDPR & CCPA:</strong> Karena data tetap lokal, persyaratan
+            minim.
+          </li>
+          <li>
+            <strong>Retensi Data:</strong> Hanya data lokal di perangkat, bisa
+            dihapus kapan saja
+          </li>
+          <li>
+            <strong>Hak Menghapus:</strong> Data bisa dihapus sepenuhnya melalui
+            pengaturan atau uninstall
+          </li>
+        </ul>
+
+        <h2>🎯 Kontrol Pengguna</h2>
+        <ul>
+          <li>
+            <strong>Lihat Data:</strong> Semua catatan amalan terlihat di
+            aplikasi
+          </li>
+          <li><strong>Ekspor Data:</strong> Ekspor ke PDF sesuai keinginan</li>
+          <li>
+            <strong>Hapus Data:</strong> Bersihkan semua data melalui pengaturan
+          </li>
+          <li>
+            <strong>Nonaktifkan Fitur:</strong> Matikan notifikasi atau lokasi
+            kapan saja
+          </li>
+          <li>
+            <strong>Hapus Aplikasi:</strong> Semua data lokal ikut terhapus
+          </li>
+        </ul>
+
+        <h2>🕌 Nilai Islam & Privasi</h2>
+        <ul>
+          <li>
+            <strong>Amanah:</strong> Data spiritual Anda dijaga dengan penuh
+            kepercayaan
+          </li>
+          <li>
+            <strong>Privasi:</strong> Hubungan Anda dengan Allah tetap privat
+          </li>
+          <li>
+            <strong>Tidak Menghakimi:</strong> Aktivitas spiritual tidak
+            dianalisis
+          </li>
+          <li>
+            <strong>Hormat:</strong> Menghormati perjalanan spiritual pribadi
+          </li>
+        </ul>
+
+        <h2>📱 Fitur Ekspor PDF</h2>
+        <ul>
+          <li><strong>Inisiatif Pengguna:</strong> Hanya saat Anda memilih</li>
+          <li><strong>Dihasilkan Lokal:</strong> PDF dibuat di perangkat</li>
+          <li>
+            <strong>Kontrol Anda:</strong> Pilih tempat simpan atau bagikan
+          </li>
+          <li>
+            <strong>Tidak Ada Transmisi:</strong> Kami tidak menerima salinan
+          </li>
+        </ul>
+
+        <h2>📝 Perubahan Kebijakan</h2>
+        <ul>
+          <li>Kebijakan dapat diperbarui sesuai pengembangan aplikasi</li>
+          <li>Pemberitahuan melalui aplikasi</li>
+          <li>
+            Penggunaan setelah perubahan berarti menyetujui kebijakan baru
+          </li>
+        </ul>
+
+        <h2>❓ Pertanyaan & Kontak</h2>
+        <p>
+          Email: <strong>flagodna.com@gmail.com</strong><br />
+          Website: <strong>www.amalanku.github.io</strong>
+        </p>
+
+        <hr />
+
+        <div class="footer-note">
+          <p><strong>📋 Ringkasan untuk Google Play Store</strong></p>
+          <p>
+            ✅ Bebas Iklan<br />
+            ✅ Tidak Ada Analitik<br />
+            ✅ Bisa Offline<br />
+            ✅ Data Lokal Saja<br />
+            ✅ Izin Minimal: Storage & Notifikasi<br />
+            ✅ Tanpa Layanan Pihak Ketiga<br />
+            ✅ Tidak Mengumpulkan Data Pribadi<br />
+            ✅ Aplikasi Islami
+          </p>
+          <p style="margin-top: 12px">
+            Kebijakan ini berlaku sejak tanggal tertera dan untuk semua pengguna
+            Amalanku.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

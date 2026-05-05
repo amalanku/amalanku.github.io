@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AmalanKu — Aplikasi Amalan Harian Muslim</title>
+    <link rel="icon" type="image/png" href="./assets/icon/amalanku.png" />
+    <meta
+      name="description"
+      content="Pantau ibadah harian, bangun keistiqomahan, dan jaga privasi Anda. Tanpa akun, tanpa iklan."
+    />
+    <meta property="og:title" content="Amalanku" />
+    <meta
+      property="og:description"
+      content="Pantau ibadah harian, bangun keistiqomahan, dan jaga privasi Anda. Tanpa akun, tanpa iklan."
+    />
+    <meta
+      property="og:image"
+      content="https://amalanku.github.io/assets/images/seo.jpg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://flagodna.com/#organization",
+            "name": "FlagoDNA",
+            "url": "https://flagodna.com",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://flagodna-developer.github.io/data/icon/flagodna/flagodna_32.jpg"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://www.wikidata.org/wiki/Q138566666",
+            "name": "Cahyanudien Aziz Saputra",
+            "alternateName": ["Cahyanudien", "Introversoul"],
+            "url": "https://www.cahyanudien.site",
+            "image": "https://avatars.githubusercontent.com/cas8398",
+            "sameAs": [
+              "https://github.com/cas8398",
+              "https://linkedin.com/in/cahyanudien",
+              "https://x.com/cas8398",
+              "https://www.wikidata.org/wiki/Q138566666"
+            ]
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://amalanku.github.io/#app",
+            "name": "AmalanKu",
+            "url": "https://amalanku.github.io/",
+            "image": "https://amalanku.github.io/assets/images/seo.jpg",
+            "operatingSystem": "Android",
+            "applicationCategory": "LifestyleApplication",
+            "description": "Aplikasi pencatat amalan harian untuk Muslim. Catat shalat, dzikir, puasa, sedekah, dan baca Al-Quran. Offline, privat, data 100% di perangkat Anda.",
+            "author": { "@id": "https://www.wikidata.org/wiki/Q138566666" },
+            "publisher": { "@id": "https://flagodna.com/#organization" },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.flagodna.amalanku",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "featureList": [
+              "Catat 5 waktu shalat (wajib & sunnah)",
+              "Tracking dzikir harian",
+              "Progress membaca Al-Quran (juz & halaman)",
+              "Lacak puasa sunnah (Senin-Kamis, Ayyamul Bidh)",
+              "Catatan sedekah & infaq",
+              "Reminder waktu shalat (adzan/notifikasi)",
+              "Laporan amalan harian, mingguan, bulanan",
+              "Ekspor catatan ke PDF",
+              "Widget progress di home screen",
+              "100% offline — data tidak pernah ke server"
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+      <div class="nav__inner">
+        <a href="#" class="nav__logo">
+          <span class="nav__logo-icon">📿</span>
+          <span>AmalanKu</span>
+        </a>
+        <ul class="nav__links">
+          <li><a href="#fitur">Fitur</a></li>
+          <li><a href="#amalan">Amalan</a></li>
+          <li><a href="#ulasan">Ulasan</a></li>
+          <li><a href="#unduh">Unduh</a></li>
+          <li>
+            <a href="https://www.amalanku.github.io/kontribusi" target="_blank"
+              >Kontribusi</a
+            >
+          </li>
+        </ul>
+        <a href="#unduh" class="btn btn--sm btn--primary nav__cta"
+          >Download Gratis</a
+        >
+        <button class="nav__hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="nav__mobile" id="mobileMenu">
+        <a href="#fitur">Fitur</a>
+        <a href="#amalan">Amalan</a>
+        <a href="#ulasan">Ulasan</a>
+        <a href="#unduh">Unduh</a>
+        <a
+          href="https://github.com/amalanku/amalanku.github.io#-langkah-kontribusi"
+          target="_blank"
+          >Kontribusi</a
+        >
+        <a href="#unduh" class="btn btn--primary">Download Gratis</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__bg">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__grid"></div>
+      </div>
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__badge">
+            <span class="hero__badge-dot"></span>
+            Gratis · Tanpa Akun · Tanpa Iklan
+          </div>
+          <h1 class="hero__title">
+            Istiqomah Dalam<br />
+            <em>Setiap Amalan</em>
+          </h1>
+          <p class="hero__desc">
+            AmalanKu membantu kamu melacak ibadah harian, membangun kebiasaan
+            baik, dan bermuhasabah — tanpa daftar akun, tanpa iklan, tanpa
+            pelacakan.
+          </p>
+
+          <div class="hero__privacy">
+            <span class="pill">🚫 Tanpa Akun</span>
+            <span class="pill">🔒 Data Lokal</span>
+            <span class="pill">📡 Tanpa Analytics</span>
+            <span class="pill">🌙 Tanpa Iklan</span>
+          </div>
+
+          <div class="hero__actions">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.flagodna.amalanku"
+              target="_blank"
+              class="btn btn--primary btn--lg"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M3.18 23.28a2 2 0 0 0 2.06-.16l11.75-6.82-2.84-2.84L3.18 23.28zM20.9 10.58 17.73 8.7 14.6 11.83l3.13 3.13 3.17-1.88a1.75 1.75 0 0 0 0-3.05l.01-.45zM1.17 1.15A1.75 1.75 0 0 0 .75 2.1v19.8a1.75 1.75 0 0 0 .42.95L14.18 12 1.17 1.15zm4.07 2.97L16.07 11l-2.84 2.84L5.24 4.12z"
+                />
+              </svg>
+              Download Android
+            </a>
+            <a href="#" class="btn btn--ghost btn--lg">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"
+                />
+              </svg>
+              Download iOS
+              <span class="badge-coming">Segera</span>
+            </a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <strong>1K+</strong>
+              <span>Pengguna Aktif</span>
+            </div>
+            <div class="hero__stat-divider"></div>
+            <div class="hero__stat">
+              <strong>4.9★</strong>
+              <span>Rating</span>
+            </div>
+            <div class="hero__stat-divider"></div>
+            <div class="hero__stat">
+              <strong>100%</strong>
+              <span>Privasi Terjaga</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="phone-mockup">
+            <div class="phone-mockup__frame">
+              <div class="phone-mockup__notch"></div>
+              <div class="phone-mockup__screen">
+                <div class="app-preview">
+                  <div class="app-header">
+                    <div class="app-greeting">السَّلَامُ عَلَيْكُم</div>
+                    <div class="app-date">Selasa, 5 Mei 2026</div>
+                    <div class="app-points">
+                      <span>🌟</span> 24 Poin Hari Ini
+                    </div>
+                  </div>
+                  <div class="app-tasks">
+                    <div class="app-task app-task--done">
+                      <div class="app-task__check">✓</div>
+                      <div class="app-task__info">
+                        <div class="app-task__name">Niat Pagi</div>
+                        <div class="app-task__time">05:00 – 12:00</div>
+                      </div>
+                      <div class="app-task__poin">+3</div>
+                    </div>
+                    <div class="app-task app-task--done">
+                      <div class="app-task__check">✓</div>
+                      <div class="app-task__info">
+                        <div class="app-task__name">Sholat Subuh</div>
+                        <div class="app-task__time">Rukun Islam</div>
+                      </div>
+                      <div class="app-task__poin">+5</div>
+                    </div>
+                    <div class="app-task app-task--active">
+                      <div class="app-task__check app-task__check--empty"></div>
+                      <div class="app-task__info">
+                        <div class="app-task__name">Sholat Dzuhur</div>
+                        <div class="app-task__time">Rukun Islam</div>
+                      </div>
+                      <div class="app-task__poin">+5</div>
+                    </div>
+                    <div class="app-task">
+                      <div class="app-task__check app-task__check--empty"></div>
+                      <div class="app-task__info">
+                        <div class="app-task__name">Membaca Al-Qur'an</div>
+                        <div class="app-task__time">Tilawah</div>
+                      </div>
+                      <div class="app-task__poin">+3</div>
+                    </div>
+                    <div class="app-task">
+                      <div class="app-task__check app-task__check--empty"></div>
+                      <div class="app-task__info">
+                        <div class="app-task__name">Berdzikir (Istighfar)</div>
+                        <div class="app-task__time">100× hari ini</div>
+                      </div>
+                      <div class="app-task__poin">+3</div>
+                    </div>
+                  </div>
+                  <div class="app-progress">
+                    <div class="app-progress__label">
+                      <span>Progress Harian</span>
+                      <span>2/5</span>
+                    </div>
+                    <div class="app-progress__bar">
+                      <div class="app-progress__fill" style="width: 40%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="phone-mockup__glow"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS BAND -->
+    <div class="stats-band">
+      <div class="container">
+        <div class="stats-band__inner">
+          <div class="stats-band__item">
+            <span class="stats-band__icon">🕌</span>
+            <span>Sholat 5 Waktu</span>
+          </div>
+          <div class="stats-band__sep">·</div>
+          <div class="stats-band__item">
+            <span class="stats-band__icon">📖</span>
+            <span>Tilawah Harian</span>
+          </div>
+          <div class="stats-band__sep">·</div>
+          <div class="stats-band__item">
+            <span class="stats-band__icon">🤲</span>
+            <span>Dzikir & Doa</span>
+          </div>
+          <div class="stats-band__sep">·</div>
+          <div class="stats-band__item">
+            <span class="stats-band__icon">🌙</span>
+            <span>Puasa Sunnah</span>
+          </div>
+          <div class="stats-band__sep">·</div>
+          <div class="stats-band__item">
+            <span class="stats-band__icon">💚</span>
+            <span>Sedekah & Infak</span>
+          </div>
+          <div class="stats-band__sep">·</div>
+          <div class="stats-band__item">
+            <span class="stats-band__icon">📊</span>
+            <span>Muhasabah Harian</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURES -->
+    <section class="features" id="fitur">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Fitur Unggulan</div>
+          <h2 class="section-title">
+            Semua yang Kamu Butuhkan<br />untuk Istiqomah
+          </h2>
+          <p class="section-desc">
+            Dirancang agar ringan, fokus, dan benar-benar membantu — bukan
+            sekadar aplikasi lain.
+          </p>
+        </div>
+
+        <div class="features__grid">
+          <div class="feature-card feature-card--large">
+            <div class="feature-card__icon">📋</div>
+            <h3>Tracking Amalan Harian</h3>
+            <p>
+              Pantau sholat 5 waktu, tilawah, dzikir, puasa sunnah, sedekah, dan
+              amalan lainnya dalam satu tampilan yang bersih dan intuitif.
+            </p>
+            <ul class="feature-list">
+              <li>✅ Sholat 5 waktu + sunnah rawatib</li>
+              <li>📖 Progress tilawah Al-Qur'an</li>
+              <li>🤲 Counter dzikir & istighfar</li>
+              <li>🌙 Tracker puasa sunnah</li>
+            </ul>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">🔔</div>
+            <h3>Pengingat Cerdas</h3>
+            <p>
+              Notifikasi tepat waktu agar tidak melewatkan waktu ibadah — dapat
+              disesuaikan sepenuhnya.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">📊</div>
+            <h3>Laporan & Statistik</h3>
+            <p>
+              Lihat perkembangan spiritual kamu secara visual, ekspor laporan
+              PDF bulanan untuk dokumentasi amal.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">🔒</div>
+            <h3>Privasi Total</h3>
+            <p>
+              Data ibadah tersimpan sepenuhnya di perangkatmu. Tidak ada server,
+              tidak ada akun, tidak ada pelacakan.
+            </p>
+          </div>
+
+          <div class="feature-card feature-card--large feature-card--dark">
+            <div class="feature-card__icon">💾</div>
+            <h3 class="text-light">Backup & Restore</h3>
+            <p>
+              Amankan semua data amalanmu. Ekspor dan impor kapan saja, sehingga
+              tidak ada satu ibadah pun yang hilang meski ganti perangkat.
+            </p>
+            <div class="feature-card__tags">
+              <span>Export JSON</span>
+              <span>Import data</span>
+              <span>Ganti HP aman</span>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">🎯</div>
+            <h3>Level Amalan</h3>
+            <p>
+              Mulai dari level <strong>Esensial</strong> hingga
+              <strong>Berkembang</strong> — atau buat level kustom sendiri
+              sesuai kebutuhanmu.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEVEL / AMALAN SECTION -->
+    <section class="levels" id="amalan">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Level Amalan</div>
+          <h2 class="section-title">Mulai Dari Mana Kamu Berada</h2>
+          <p class="section-desc">
+            Tidak perlu langsung sempurna. AmalanKu hadir untuk menemanimu
+            bertumbuh perlahan tapi pasti.
+          </p>
+        </div>
+
+        <div class="levels__grid">
+          <div class="level-card">
+            <div class="level-card__badge">Pemula</div>
+            <div class="level-card__title">
+              <span class="level-card__emoji">🌱</span>
+              <h3>Esensial</h3>
+            </div>
+            <p class="level-card__desc">
+              Fondasi ibadah harian yang kuat. Cocok untuk yang baru memulai
+              istiqomah.
+            </p>
+            <ul class="level-card__list">
+              <li><span class="dot dot--green"></span>Niat Pagi</li>
+              <li><span class="dot dot--green"></span>Sholat Subuh</li>
+              <li><span class="dot dot--green"></span>Sholat Dzuhur / Jumat</li>
+              <li><span class="dot dot--green"></span>Sholat Ashar</li>
+              <li><span class="dot dot--green"></span>Sholat Maghrib</li>
+              <li><span class="dot dot--green"></span>Sholat Isya</li>
+              <li>
+                <span class="dot dot--green"></span>Membaca Al-Qur'an (min. 1
+                ayat)
+              </li>
+              <li>
+                <span class="dot dot--green"></span>Berdzikir / Istighfar (100×)
+              </li>
+              <li><span class="dot dot--muted"></span>Muhasabah Harian</li>
+              <li><span class="dot dot--muted"></span>Ayat Pilihan Harian</li>
+            </ul>
+            <div class="level-card__poin">Max ~60 Poin/Hari</div>
+          </div>
+
+          <div class="level-card level-card--featured">
+            <div class="level-card__badge level-card__badge--gold">
+              Berkembang ✨
+            </div>
+            <div class="level-card__title">
+              <span class="level-card__emoji">🌿</span>
+              <h3 class="text-light">Berkembang</h3>
+            </div>
+            <p class="level-card__desc">
+              Tingkatkan amalan dengan sholat sunnah, puasa, dan ibadah tambahan
+              lainnya.
+            </p>
+            <ul class="level-card__list">
+              <li><span class="dot dot--gold"></span>Semua amalan Esensial</li>
+              <li><span class="dot dot--gold"></span>Qabliyah Subuh / Fajar</li>
+              <li>
+                <span class="dot dot--gold"></span>Sholat Dhuha (06:00–10:00)
+              </li>
+              <li>
+                <span class="dot dot--gold"></span>Sholat Rawatib (Qabliyah &
+                Ba'diyah)
+              </li>
+              <li>
+                <span class="dot dot--gold"></span>Sholat Witir & Tahajjud
+              </li>
+              <li><span class="dot dot--gold"></span>Puasa Senin & Kamis</li>
+              <li>
+                <span class="dot dot--gold"></span>Puasa Ayyamul Bidh (13, 14,
+                15)
+              </li>
+              <li><span class="dot dot--gold"></span>Infak / Zakat Mingguan</li>
+              <li>
+                <span class="dot dot--gold"></span>Shalat Jumat & Qabliyah
+              </li>
+            </ul>
+            <div class="level-card__poin">Max ~150 Poin/Hari</div>
+          </div>
+
+          <div class="level-card level-card--custom">
+            <div class="level-card__badge level-card__badge--purple">
+              Kustom 🛠️
+            </div>
+            <div class="level-card__title">
+              <span class="level-card__emoji">⚙️</span>
+              <h3>Level Kustom</h3>
+            </div>
+            <p class="level-card__desc">
+              Buat level sendiri dari kontribusi komunitas atau rancang sesuai
+              kebutuhanmu.
+            </p>
+            <div class="level-custom__info">
+              <p>
+                Pilih dari koleksi amalan komunitas, atau ajukan amalan baru
+                melalui GitHub.
+              </p>
+              <a
+                href="https://github.com/amalanku/amalanku.github.io"
+                target="_blank"
+                class="btn btn--outline btn--sm"
+                >Lihat di GitHub →</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRIVACY HIGHLIGHT -->
+    <section class="privacy-highlight">
+      <div class="container">
+        <div class="privacy-highlight__inner">
+          <div class="privacy-highlight__content">
+            <div class="section-tag section-tag--light">
+              Privasi & Kepercayaan
+            </div>
+            <h2>Ibadah Kamu,<br />Urusanmu Sendiri</h2>
+            <p>
+              Kami percaya bahwa catatan ibadah adalah hal yang sangat privat.
+              Oleh karena itu, AmalanKu dirancang dari awal untuk tidak
+              menyentuh data pribadimu.
+            </p>
+            <div class="privacy-grid">
+              <div class="privacy-item">
+                <span>🚫</span>
+                <div>
+                  <strong>Tanpa Registrasi</strong>
+                  <small>Langsung pakai, tidak perlu email atau nomor HP</small>
+                </div>
+              </div>
+              <div class="privacy-item">
+                <span>📱</span>
+                <div>
+                  <strong>Data 100% Lokal</strong>
+                  <small>Tersimpan di perangkatmu, bukan server kami</small>
+                </div>
+              </div>
+              <div class="privacy-item">
+                <span>📡</span>
+                <div>
+                  <strong>Tanpa Analytics</strong>
+                  <small
+                    >Tidak ada pelacakan aktivitas atau perilaku pengguna</small
+                  >
+                </div>
+              </div>
+              <div class="privacy-item">
+                <span>🌐</span>
+                <div>
+                  <strong>Mayoritas Offline</strong>
+                  <small
+                    >Gunakan sebagian besar fitur tanpa koneksi internet</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="privacy-highlight__visual">
+            <div class="privacy-shield">
+              <div class="privacy-shield__outer">
+                <div class="privacy-shield__inner">
+                  <span>🔒</span>
+                  <p>Data Aman</p>
+                </div>
+              </div>
+              <div class="privacy-shield__ring privacy-shield__ring--1"></div>
+              <div class="privacy-shield__ring privacy-shield__ring--2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="ulasan">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Ulasan Pengguna</div>
+          <h2 class="section-title">
+            Kata Mereka yang Telah<br />Merasakan Manfaatnya
+          </h2>
+        </div>
+
+        <div class="testimonials__grid">
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p>
+              "Tanpa registrasi langsung bisa pakai, sangat praktis! Level
+              berkembang di daily task cukup challenging. Remindernya juga tidak
+              mengganggu aktivitas."
+            </p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">K</div>
+              <div>
+                <strong>Khadijah L.</strong>
+                <span>Makassar</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p>
+              "Sangat membantu untuk muhasabah harian. Fitur daily deed untuk
+              catat kebaikan dan keburukan membuat saya lebih aware dengan
+              perbuatan sehari-hari."
+            </p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">S</div>
+              <div>
+                <strong>Siti R.</strong>
+                <span>Bandung</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p>
+              "Interface simple dan mudah digunakan. Paling suka fitur summary
+              kekusyuan shalat — jadi bisa evaluasi kualitas ibadah. Offline
+              feature juga mantap!"
+            </p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">A</div>
+              <div>
+                <strong>Abdul M.</strong>
+                <span>Medan</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p>
+              "Aplikasi tracking islami terbaik! Fitur daily task dengan level
+              pemula sangat membantu saya yang baru belajar istiqomah. Data
+              tersimpan lokal jadi privasi terjaga."
+            </p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">A</div>
+              <div>
+                <strong>Ahmad S.</strong>
+                <span>Jakarta</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★☆</div>
+            <p>
+              "Aplikasi lokal Indonesia yang berkualitas. Fitur tracking lengkap
+              dan data privat. Semoga segera ada versi iOS ya, pengen pakai di
+              iPhone."
+            </p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">U</div>
+              <div>
+                <strong>Usman H.</strong>
+                <span>Palembang</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p>
+              "Love the app lock feature! Sebagai yang sering pinjamkan HP,
+              fitur kunci dengan pattern sangat berguna. Export PDF juga keren
+              untuk dokumentasi."
+            </p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">M</div>
+              <div>
+                <strong>Muhammad F.</strong>
+                <span>Surabaya</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOWNLOAD -->
+    <section class="download" id="unduh">
+      <div class="container">
+        <div class="download__inner">
+          <div class="download__content">
+            <div class="section-tag section-tag--light">Mulai Sekarang</div>
+            <h2>Download AmalanKu<br />Hari Ini — Gratis</h2>
+            <p>
+              Bergabung bersama 1.000+ Muslim yang sudah menjaga istiqomah
+              amalan harian mereka.
+            </p>
+
+            <div class="download__buttons">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.flagodna.amalanku"
+                target="_blank"
+                class="store-btn"
+              >
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M3.18 23.28a2 2 0 0 0 2.06-.16l11.75-6.82-2.84-2.84L3.18 23.28zM20.9 10.58 17.73 8.7 14.6 11.83l3.13 3.13 3.17-1.88a1.75 1.75 0 0 0 0-3.05l.01-.45zM1.17 1.15A1.75 1.75 0 0 0 .75 2.1v19.8a1.75 1.75 0 0 0 .42.95L14.18 12 1.17 1.15zm4.07 2.97L16.07 11l-2.84 2.84L5.24 4.12z"
+                  />
+                </svg>
+                <div>
+                  <small>Download di</small>
+                  <strong>Google Play</strong>
+                </div>
+              </a>
+              <div class="store-btn store-btn--disabled">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"
+                  />
+                </svg>
+                <div>
+                  <small>Segera di</small>
+                  <strong>App Store</strong>
+                </div>
+                <span class="badge-soon">Soon</span>
+              </div>
+            </div>
+
+            <div class="download__note">
+              Minimal Android 7.0 · Gratis sepenuhnya · Tanpa pembelian dalam
+              aplikasi
+            </div>
+          </div>
+
+          <div class="download__ornament">
+            <div class="ornament-circle">
+              <div class="ornament-circle__inner">
+                <span class="ornament-arabic">بِسْمِ اللّٰهِ</span>
+                <span class="ornament-sub">Bismillah, mulai hari ini</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTRIBUTE -->
+    <section class="contribute">
+      <div class="container">
+        <div class="contribute__inner">
+          <div class="contribute__icon">🤝</div>
+          <div>
+            <h3>Berkontribusi untuk Ummat</h3>
+            <p>
+              AmalanKu adalah proyek open-source. Tambahkan amalan baru,
+              perbaiki konten, atau bantu pengembangan aplikasi — setiap
+              kontribusimu adalah amal jariyah.
+            </p>
+          </div>
+          <div class="contribute__actions">
+            <a
+              href="https://github.com/amalanku/amalanku.github.io"
+              target="_blank"
+              class="btn btn--outline"
+              >GitHub →</a
+            >
+            <a
+              href="https://dukung.flagodna.com"
+              target="_blank"
+              class="btn btn--ghost--green"
+              >Dukung Kami ❤️</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__brand">
+            <div class="footer__logo">
+              <span>📿</span>
+              <strong>AmalanKu</strong>
+            </div>
+            <p>
+              Aplikasi amalan harian Muslim yang fokus pada privasi, kemudahan,
+              dan konsistensi ibadah.
+            </p>
+            <div class="footer__socials">
+              <a
+                href="https://www.amalanku.github.io/kontribusi"
+                title="Kontribusi"
+                >GitHub</a
+              >
+              <a href="https://dukung.flagodna.com" title="Donasi">Donasi</a>
+              <a
+                href="https://chat.whatsapp.com/KfOfGWWo6OE9fJdUpggCW8"
+                title="WhatsApp"
+                >WhatsApp</a
+              >
+            </div>
+          </div>
+          <div class="footer__links">
+            <div class="footer__col">
+              <h4>Aplikasi</h4>
+              <a href="#fitur">Fitur</a>
+              <a href="#amalan">Level Amalan</a>
+              <a href="#unduh">Download</a>
+              <a href="https://docs.page/amalanku/docs" target="_blank"
+                >Dokumentasi</a
+              >
+            </div>
+            <div class="footer__col">
+              <h4>Komunitas</h4>
+              <a href="./docs/team.html" target="_blank">Tim Kami</a>
+              <a
+                href="https://github.com/amalanku/amalanku.github.io#-langkah-kontribusi"
+                target="_blank"
+                >Berkontribusi</a
+              >
+              <a
+                href="https://github.com/amalanku/amalanku.github.io"
+                target="_blank"
+                >Open Source</a
+              >
+            </div>
+            <div class="footer__col">
+              <h4>Info</h4>
+              <a href="./docs/kebijakan-privasi.html" target="_blank"
+                >Kebijakan Privasi</a
+              >
+              <a href="https://www.amalanku.github.io" target="_blank"
+                >Website Resmi</a
+              >
+              <a href="mailto:flagodna.com@gmail.com">Kontak</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>
+            © 2025–2026 AmalanKu · Dibuat dengan ❤️ oleh
+            <a
+              href="https://flagodna.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="
+                color: #8ddbb5;
+                text-decoration: none;
+                transition: color 0.2s;
+              "
+            >
+              FlagoDNA
+            </a>
+            Developer
+          </p>
+          <p class="footer__version">Versi 1.2.0 · Android 7.0+</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Navbar scroll effect
+      const nav = document.getElementById("nav");
+      window.addEventListener("scroll", () => {
+        nav.classList.toggle("nav--scrolled", window.scrollY > 40);
+      });
+
+      // Hamburger menu
+      const hamburger = document.getElementById("hamburger");
+      const mobileMenu = document.getElementById("mobileMenu");
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        mobileMenu.classList.toggle("open");
+      });
+      mobileMenu.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          hamburger.classList.remove("active");
+          mobileMenu.classList.remove("open");
+        });
+      });
+
+      // Intersection Observer for reveal animations
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+            }
+          });
+        },
+        { threshold: 0.1 }
+      );
+
+      document
+        .querySelectorAll(
+          ".feature-card, .level-card, .testimonial-card, .privacy-item"
+        )
+        .forEach((el) => {
+          observer.observe(el);
+        });
+    </script>
+  </body>
+</html>

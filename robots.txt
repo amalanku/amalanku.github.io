@@ -1,0 +1,10 @@
+# AmalanKu - Robots.txt
+# https://amalanku.github.io/
+
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /build/
+Disallow: /node_modules/
+
+Sitemap: https://amalanku.github.io/sitemap.xml

@@ -1,0 +1,14 @@
+# AmalanKu
+## Aplikasi pencatat amalan harian untuk Muslim
+
+### Pages
+- Home: https://amalanku.com/
+- Team: https://amalanku.com/docs/team.html
+- Privacy Policy: https://amalanku.com/docs/kebijakan-privasi.html
+
+### Description
+AmalanKu helps Muslims track daily worship: prayers (5 daily prayers), dhikr, Quran reading, fasting, and charity. 100% offline, data stored only on device.
+
+### Contact
+- Email: flagodna.com@gmail.com
+- GitHub: https://github.com/amalanku/amalanku.github.io
