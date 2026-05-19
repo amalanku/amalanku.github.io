@@ -1,14 +1,24 @@
-# Amalanku - Aplikasi Amalan Harian Muslim 🕌
+# Amalanku — Aplikasi Amalan Harian Muslim 🕌
 
-[![Development Status](https://img.shields.io/badge/Status-In%20Development-yellow)](https://github.com/amalanku/amalanku.github.io)
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](CONTRIBUTING.md)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/amalanku/amalanku.github.io)
+[![Play Store](https://img.shields.io/badge/Google%20Play-4.9★-blue)](https://play.google.com/store/apps/details?id=com.flagodna.amalanku)
+[![Downloads](https://img.shields.io/badge/Downloads-500%2B-green)](https://play.google.com/store/apps/details?id=com.flagodna.amalanku)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange)](CONTRIBUTING.md)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## 📖 Deskripsi
 
-**Amalanku** adalah aplikasi mobile yang dirancang khusus untuk membantu umat Islam melacak dan mengelola amalan harian mereka. Aplikasi ini bertujuan untuk membantu kaum muslimin agar dapat **istiqomah** dalam menjalankan ibadah dan menjaga keimanan tetap stabil dalam kehidupan sehari-hari.
+**AmalanKu** adalah aplikasi mobile yang dirancang khusus untuk membantu umat Islam melacak dan mengelola amalan harian mereka. Aplikasi ini bertujuan untuk membantu kaum muslimin agar dapat **istiqomah** dalam menjalankan ibadah dan menjaga keimanan tetap stabil dalam kehidupan sehari-hari.
 
-Dengan fitur-fitur yang komprehensif, Amalanku tidak hanya sebagai tracker amalan, tetapi juga sebagai **pengingat spiritual** dan **pendamping ibadah** yang membantu menjaga iman agar tidak melemah.
+> _Gratis · Tanpa Akun · Tanpa Iklan_
+
+Dengan fitur-fitur yang komprehensif, AmalanKu tidak hanya sebagai tracker amalan, tetapi juga sebagai **pengingat spiritual** dan **pendamping ibadah** yang membantu menjaga iman agar tidak melemah.
+
+🌐 **Website Resmi**: [www.amalanku.com](https://www.amalanku.com)  
+📱 **Google Play**: [Download Sekarang](https://play.google.com/store/apps/details?id=com.flagodna.amalanku)  
+🍎 **App Store**: Segera hadir
+
+---
 
 ## 🎯 Tujuan Utama
 
@@ -18,82 +28,77 @@ Dengan fitur-fitur yang komprehensif, Amalanku tidak hanya sebagai tracker amala
 - **Pembentukan Kebiasaan**: Membantu membangun rutina spiritual yang kuat
 - **Komunitas Ummah**: Menyatukan umat Islam dalam satu platform spiritual
 
+---
+
 ## ✨ Fitur Utama
 
-### 📱 Tracking Amalan
+### 📋 Tracking Amalan Harian
 
-- ✅ Pelacakan Salat 5 Waktu
+- ✅ Pelacakan Sholat 5 Waktu + Sunnah Rawatib
 - 📖 Progress Tilawah Al-Qur'an
-- 🤲 Counter Dzikir & Doa
-- 🌙 Tracker Puasa Sunnah
-- 📿 Wirid dan Amalan Harian
-- 🕌 Catatan Ibadah Tambahan
+- 🤲 Counter Dzikir & Istighfar
+- 🌙 Tracker Puasa Sunnah (Senin-Kamis, Ayyamul Bidh)
+- 💚 Tracker Sedekah & Infak
+- 📊 Muhasabah Harian
 
-### 🔔 Sistem Pengingat
+### 🔔 Pengingat Cerdas
 
-- ⏰ Reminder Waktu Salat
+- ⏰ Reminder Waktu Sholat
 - 📅 Notifikasi Amalan Harian
 - 🌅 Pengingat Dzikir Pagi & Petang
 - 📚 Reminder Tilawah
+- 🗓️ Pengingat Muhasabah Bulanan
 
-### 📊 Monitoring & Analisis
+### 📊 Laporan & Statistik
 
 - 📈 Grafik Progress Amalan
-- 🏆 Sistem Achievement
-- 📋 Laporan Harian/Mingguan/Bulanan
-- 💎 Streak Counter Istiqomah
+- 📋 Ekspor Laporan PDF Bulanan
+- 🏆 Sistem Poin & Achievement
+- 📤 Berbagi ringkasan amal dalam format gambar
 
-### 🔒 Privacy & Kebebasan
+### 🏠 Widget & Utilitas
 
-- 🚫 **No Login Required**: Tidak perlu registrasi atau login
-- 🛡️ **Privacy First**: Data pribadi tersimpan lokal di device
-- 🌐 **Offline Capable**: Mayoritas fitur dapat digunakan tanpa internet
-- 📡 **Pull Data Only**: Aplikasi hanya mengambil data dari server (jadwal salat, konten islami)
-- 🔐 **Zero Tracking**: Tidak ada tracking aktivitas user
+- 📍 Widget jadwal sholat di layar utama _(Baru!)_
+- 💾 Backup & Restore data _(Baru!)_
+- 🔒 App Lock dengan pattern
 
-## 🚧 Status Pengembangan
+### 🎯 Level Amalan
 
-**⚠️ Proyek ini sedang dalam tahap pengembangan aktif**
+| Level                    | Deskripsi                                                       | Max Poin/Hari |
+| ------------------------ | --------------------------------------------------------------- | ------------- |
+| 🌱 **Esensial** (Pemula) | Fondasi ibadah harian — cocok untuk yang baru memulai istiqomah | ~60 poin      |
+| 🌿 **Berkembang**        | Tambah sholat sunnah, puasa, dan ibadah lainnya                 | ~150 poin     |
+| ⚙️ **Kustom**            | Rancang level sendiri dari koleksi amalan komunitas             | Fleksibel     |
 
-Kami sedang membangun fondasi aplikasi dan membutuhkan kontribusi dari komunitas untuk mempercepat pengembangan. Saat ini, struktur dasar dan data pendukung sudah tersedia di folder `./data/` untuk memudahkan kontribusi.
+**Amalan level Esensial meliputi:** Niat Pagi, Sholat 5 Waktu, Membaca Al-Qur'an (min. 1 ayat), Berdzikir/Istighfar (100×), Muhasabah Harian, Ayat Pilihan Harian.
 
-## 🗓️ Roadmap
+**Amalan level Berkembang meliputi** semua amalan Esensial, ditambah: Qabliyah Subuh/Fajar, Sholat Dhuha, Sholat Rawatib (Qabliyah & Ba'diyah), Sholat Witir & Tahajjud, Puasa Senin & Kamis, Puasa Ayyamul Bidh (13, 14, 15), Infak/Zakat Mingguan, Shalat Jumat & Qabliyahnya.
 
-### Fase 1: Foundation (Q3 2025) ✏️
+### 🔒 Privasi & Kebebasan
 
-- [x] Setup project structure
-- [x] Database design & implementation
-- [ ] Basic UI/UX Design
-- [ ] Core tracking features
-- [ ] Prayer time integration
+- 🚫 **Tanpa Akun / Login**: Langsung pakai
+- 🛡️ **Data 100% Lokal**: Tersimpan di perangkatmu, bukan server kami
+- 📡 **Tanpa Analytics**: Tidak ada pelacakan aktivitas pengguna
+- 🌐 **Mayoritas Offline**: Sebagian besar fitur dapat digunakan tanpa internet
+- 🌙 **Tanpa Iklan**: Pengalaman ibadah tanpa gangguan
 
-### Fase 2: Core Features (Q4 2025)
+---
 
-- [ ] Quran reading tracker
-- [ ] Dhikr counter system
-- [ ] Notification system
-- [ ] Basic reporting dashboard
-- [ ] Local data storage system
+## 📊 Status Aplikasi
 
-### Fase 3: Enhancement (Q1 2026)
+| Info                 | Detail                                     |
+| -------------------- | ------------------------------------------ |
+| 📱 Platform          | Android (minimal Android 7.0)              |
+| 🍎 iOS               | Segera hadir                               |
+| ⭐ Rating Play Store | 4.9★                                       |
+| 🔖 Versi             | 1.2.0                                      |
+| 🏢 Developer         | [FlagoDNA Developer](https://flagodna.com) |
 
-- [ ] Advanced analytics
-- [ ] Achievement system
-- [ ] Community features
-- [ ] Multiple language support
-- [ ] Customizable reminders
-
-### Fase 4: Community & Polish (Q2 2026)
-
-- [ ] Optional sync features (without account)
-- [ ] Islamic calendar integration
-- [ ] Local backup & restore functionality
-- [ ] Performance optimization
-- [ ] Beta testing program
+---
 
 ## 🤝 Cara Berkontribusi
 
-Kami sangat membutuhkan kontribusi dari komunitas untuk mewujudkan visi Amalanku! Setiap kontribusi, sekecil apapun, sangat berharga bagi kemajuan proyek ini.
+Kami sangat membutuhkan kontribusi dari komunitas untuk mewujudkan visi AmalanKu! Setiap kontribusi, sekecil apapun, sangat berharga bagi kemajuan proyek ini.
 
 ### 🎨 Jenis Kontribusi yang Dibutuhkan
 
@@ -120,7 +125,7 @@ Kami sangat membutuhkan kontribusi dari komunitas untuk mewujudkan visi Amalanku
 
 Lihat folder `./data/` untuk berbagai data yang dibutuhkan:
 
-- Data jadwal salat
+- Data jadwal sholat
 - Kumpulan doa dan dzikir
 - Konten motivasi spiritual
 - Database ayat Al-Qur'an
@@ -156,10 +161,10 @@ git push origin feature/kontribusi-saya
 - Baca dokumen README
 - Anda bisa mengunggah data atau file yang ingin dibagikan di folder CONTRIBUTOR
 
-#### 💬 3. Untuk lain (tidak direkomendasikan untuk submit perbaikan):
+#### 💬 3. Melalui WhatsApp Community:
 
-- Gabung ke grup WhatsApp Amalanku Project:  
-  🔗 [Group Whatsapp AmalanKu Project](https://chat.whatsapp.com/J0IbBIJwDL80qBrHycW72t)
+- Gabung ke grup WhatsApp AmalanKu Project:  
+  🔗 [Group WhatsApp AmalanKu Project](https://chat.whatsapp.com/KfOfGWWo6OE9fJdUpggCW8)
 
 ### 💡 Butuh Ide Kontribusi?
 
@@ -168,7 +173,9 @@ git push origin feature/kontribusi-saya
 - Baca [CONTRIBUTING.md](CONTRIBUTING.md) untuk panduan lengkap
 - Join diskusi di [Discussions](https://github.com/amalanku/amalanku.github.io/discussions)
 
-## 🌟 Mengapa Amalanku Penting?
+---
+
+## 🌟 Mengapa AmalanKu Penting?
 
 ### 🔥 Problem yang Diselesaikan
 
@@ -189,33 +196,25 @@ git push origin feature/kontribusi-saya
 - **Kebebasan Penuh**: Tidak perlu khawatir dengan akun, password, atau kebijakan privasi
 - **Fokus Ibadah**: Tanpa distraksi notifikasi sosial atau fitur yang tidak perlu
 
-### 🌍 Dampak Jangka Panjang
-
-Dengan Amalanku, kami berharap dapat:
-
-- Membantu jutaan muslim di seluruh dunia untuk lebih istiqomah
-- Menjadi bagian dari dakwah digital yang bermanfaat
-- Menciptakan komunitas muslim yang saling support secara spiritual
-- Memberikan kontribusi positif untuk peradaban Islam modern
+---
 
 ## 📞 Kontak & Diskusi
-
-Kami terbuka untuk diskusi, saran, dan kolaborasi! Hubungi kami melalui:
 
 ### 💬 Komunikasi
 
 - **GitHub Discussions**: [Diskusi Proyek](https://github.com/amalanku/amalanku.github.io/discussions)
 - **Issues**: [Laporkan Bug atau Request Feature](https://github.com/amalanku/amalanku.github.io/issues)
-- **Email**: amalanku@hotmail.com
-- **Whatsapp Community**: [https://chat.whatsapp.com/J0IbBIJwDL80qBrHycW72t](https://chat.whatsapp.com/J0IbBIJwDL80qBrHycW72t)
+- **Email**: flagodna.com@gmail.com
+- **WhatsApp Community**: [https://chat.whatsapp.com/KfOfGWWo6OE9fJdUpggCW8](https://chat.whatsapp.com/KfOfGWWo6OE9fJdUpggCW8)
+- **Donasi**: [dukung.flagodna.com](https://dukung.flagodna.com)
 
 ### 📱 Social Media
 
 - **Instagram**: [@amalanku.app](https://www.instagram.com/amalanku.app/)
-- **Twitter**: [@AmalankuApp](https://x.com/AmalankuApp)
+- **Twitter/X**: [@AmalankuApp](https://x.com/AmalankuApp)
 - **LinkedIn**: [Amalanku Project](https://www.linkedin.com/company/amalanku-project)
 - **Facebook**: [Amalanku Project](https://facebook.com/profile.php?id=61578649081392)
-- **Youtube**: [Amalanku Project](https://youtube.com/@amalanku-project)
+- **YouTube**: [Amalanku Project](https://youtube.com/@amalanku-project)
 
 ### 🤲 Mari Bergabung!
 
@@ -228,13 +227,15 @@ Jika Anda:
 
 **Kami sangat welcome untuk bergabung!** Setiap skill dan passion Anda dapat berkontribusi untuk kemajuan aplikasi yang insyaAllah bermanfaat untuk jutaan muslim di dunia.
 
+---
+
 ## 📄 License
 
 Proyek ini dilisensikan under [MIT License](LICENSE) - lihat file LICENSE untuk detail lengkap.
 
 ## 🤲 Doa untuk Proyek
 
-_"Rabbana taqabbal minna innaka antas Samii'ul 'Aliim"_
+_"Rabbana taqabbal minna innaka antas Samii'ul 'Aliim"_  
 _(Ya Rabb kami, terimalah (amal) dari kami. Sesungguhnya Engkaulah Yang Maha Mendengar lagi Maha Mengetahui)_
 
 ---
